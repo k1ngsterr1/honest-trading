@@ -9,8 +9,8 @@
   margin-top: clamp(64px, 6.6666666667vw, 256px);
 }
 * body .cards-container .card-content {
-  width: clamp(154.5px, 16.09375vw, 618px);
-  height: clamp(222px, 23.125vw, 888px);
+  width: clamp(154.5px, 16.09375vw, 618px) !important;
+  height: clamp(222px, 23.125vw, 888px) !important;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,7 +35,7 @@
   font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 20px !important;
   color: #1e1e1e;
   margin-top: clamp(16px, 1.6666666667vw, 64px);
 }/*# sourceMappingURL=cards.css.map */

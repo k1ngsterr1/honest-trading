@@ -37,15 +37,15 @@ const CulturesScreen = () => {
           </div>
           <div className="gold-container">
             <img className="gold" src={gold}></img>
-            <h6 className="brown-heading">Семена льна золотистого</h6>
+            <h6 className="gold-heading">Семена льна золотистого</h6>
           </div>
           <div className="raps-container">
-            <img className="gold" src={raps}></img>
+            <img className="raps" src={raps}></img>
             <h6 className="raps-heading">Рапс</h6>
           </div>
-          <button className="contact-with-us">Связаться с нами</button>
-          <img className="arrow" src={arrow}></img>
         </div>
+        <button className="contact-with-us">Связаться с нами</button>
+        <img className="arrow" src={arrow}></img>
       </div>
     </div>
   );

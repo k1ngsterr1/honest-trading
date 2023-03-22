@@ -5,6 +5,7 @@ import MainScreen from "./screens/MainScreen";
 import CardsScreen from "./screens/CardsScreen";
 import AboutScreen from "./screens/AboutScreen";
 import CulturesScreen from "./screens/CulturesScreen";
+import ContactScreen from "./screens/ContactScreen";
 import Footer from "./components/Footer";
 
 // Styles
@@ -17,6 +18,7 @@ const App = () => {
       <CardsScreen></CardsScreen>
       <AboutScreen></AboutScreen>
       <CulturesScreen></CulturesScreen>
+      <ContactScreen></ContactScreen>
       <Footer></Footer>
     </div>
   );

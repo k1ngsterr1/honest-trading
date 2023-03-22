@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+* body .contact-screen {
+  width: 100%;
+  height: auto;
+  background-image: url(../../assets/Contact_Background.svg) !important;
+  font-family: "Montserrat";
+  font-style: normal;
+  height: auto;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  z-index: 10;
+  flex-direction: column;
+  margin-top: clamp(64px, 6.6666666667vw, 256px);
+}
+* body .contact-screen .contact-container {
+  width: 86.4583333333%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+* body .contact-screen .contact-container .contact-heading {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(30px, 3.125vw, 120px);
+  color: #ffffff;
+  margin: auto;
+  margin-top: clamp(40px, 4.1666666667vw, 160px);
+}
+* body .contact-screen .contact-container .contact-heading-second {
+  width: clamp(242.5px, 25.2604166667vw, 970px);
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(17.5px, 1.8229166667vw, 70px);
+  margin: auto;
+  margin-top: clamp(20px, 2.0833333333vw, 80px);
+  color: #ffffff;
+  text-align: center;
+}
+* body .contact-screen .contact-container .contact-paragraph {
+  width: clamp(324.5px, 33.8020833333vw, 1298px);
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(13.5px, 1.40625vw, 54px);
+  color: #ffffff;
+  text-align: center;
+  margin: auto;
+  margin-top: clamp(16px, 1.6666666667vw, 64px);
+}/*# sourceMappingURL=contact.css.map */

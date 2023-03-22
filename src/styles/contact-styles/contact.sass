@@ -41,41 +41,54 @@ $sourceSansPro: 'Source Sans Pro'
 
     body
 
-        .cards-container
-            width: 86.45833333333333%
+        .contact-screen
+            width: 100%
+            height: auto
+            background-image: url(../../assets/Contact_Background.svg) !important
+            font-family: 'Montserrat'
+            font-style: normal
+            height: auto
             display: flex
             align-items: center
-            justify-content: space-between
             margin: auto
+            z-index: 10
+            flex-direction: column
             margin-top: $onetwoeightclamp
 
-            .card-content
-                width: clamp(154.5px,16.09375vw,618px) !important
-                height: clamp(222px,23.125vw,888px) !important
+            .contact-container
+                width: 86.45833333333333%
+                height: auto
                 display: flex
                 flex-direction: column
-                align-items: center
-                background: #F8F8F8
-                border-radius: 15px
-                filter: drop-shadow(0px 27px 28px rgba(0, 0, 0, 0.2))
+                margin: auto
 
-                .card-image
-                    width: clamp(51.5px,5.364583333333333vw,206px)
-                    height: clamp(50.5px,5.260416666666667vw,202px)
-
-                .card-header
+                .contact-heading
                     font-family: 'Montserrat'
                     font-style: normal
                     font-weight: 700
-                    font-size: clamp(13.5px,1.40625vw,54px)
-                    margin-top: $thirtytwoclamp
-                    color: $black
+                    font-size: clamp(30px,3.125vw,120px)
+                    color: $white
+                    margin: auto
+                    margin-top: clamp(40px,4.166666666666667vw,160px)
 
-                .card-paragraph
-                    width: clamp(122.5px,12.760416666666666vw,490px)
+                .contact-heading-second
+                    width: clamp(242.5px,25.260416666666668vw,970px)
+                    font-family: 'Source Sans Pro'
+                    font-style: normal
+                    font-weight: 700
+                    font-size: clamp(17.5px,1.8229166666666667vw,70px)
+                    margin: auto
+                    margin-top: clamp(20px,2.0833333333333335vw,80px)
+                    color: $white
+                    text-align: center
+
+                .contact-paragraph
+                    width: clamp(324.5px,33.802083333333336vw,1298px)
                     font-family: 'Source Sans Pro'
                     font-style: normal
                     font-weight: 400
-                    font-size: 20px !important
-                    color: $black
+                    font-size: clamp(13.5px,1.40625vw,54px)
+                    color: $white
+                    text-align: center
+                    margin: auto
                     margin-top: $thirtytwoclamp
