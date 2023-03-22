@@ -5,6 +5,9 @@ import { Link } from "react-scroll";
 // Icons
 import { BsFillTelephoneFill } from "react-icons/bs";
 
+// Styles
+import styles from "../styles/main-styles/main.css";
+
 // Assets
 import logo from "../assets/honest_trading.png";
 import blob from "../assets/main_blob.svg";
@@ -18,13 +21,11 @@ const MainScreen = () => {
         <nav className="navigation">
           <img className="honest-trading-logo" src={logo} alt="logo"></img>
           <div className="navigation-links">
-            <a className="main" href="/">
-              Главная
-            </a>
+            <a className="main">Главная</a>
             <Link className="about-us" to="about-screen" smooth={true}>
               О нас
             </Link>
-            <Link classID="contact-with-us" to="contact-us" smooth={true}>
+            <Link className="contact-with-us" to="contact-us" smooth={true}>
               Связаться с нами
             </Link>
           </div>
@@ -40,7 +41,7 @@ const MainScreen = () => {
             non laoreet id vitae vel.
           </p>
           <button className="consultation-button">
-            <BsFillTelephoneFill></BsFillTelephoneFill>
+            <BsFillTelephoneFill className="phone-icon"></BsFillTelephoneFill>
             Получить консультацию
           </button>
           <DownSeparator></DownSeparator>

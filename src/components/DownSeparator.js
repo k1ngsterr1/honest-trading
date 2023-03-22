@@ -1,5 +1,7 @@
 import React from "react";
 
+import styles from "../styles/down-styles/down.css";
+
 const DownSeparator = () => {
   return (
     <div className="down-separator">

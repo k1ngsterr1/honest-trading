@@ -7,6 +7,9 @@ import AboutScreen from "./screens/AboutScreen";
 import CulturesScreen from "./screens/CulturesScreen";
 import Footer from "./components/Footer";
 
+// Styles
+import styles from "./styles/app-styles/app.css";
+
 const App = () => {
   return (
     <div className="app">

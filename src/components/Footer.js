@@ -15,7 +15,9 @@ const Footer = () => {
         </p>
       </div>
       <nav className="footer-navigation">
-        <a className=""></a>
+        <Link className="main-footer-link">Главная</Link>
+        <Link className="about-footer-link">О нас</Link>
+        <Link className="contact-footer-link">Связаться с нами</Link>
       </nav>
     </footer>
   );

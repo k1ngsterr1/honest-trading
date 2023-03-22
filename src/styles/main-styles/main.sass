@@ -1,0 +1,140 @@
+
+// Colors
+$green: #305A02
+$hover_green: #294D02
+$black: #1e1e1e
+$white: #ffffff
+$bright_green: #CBE7C9
+$yellow: #D6BF1C
+
+// Margins
+$eightclamp: clamp(4px,0.4166666666666667vw,16px)
+$sixteenclamp: clamp(8px,0.8333333333333334vw,32px)
+$twentyclamp: clamp(10px,1.0416666666666667vw,40px)
+$thirtytwoclamp: clamp(16px,1.6666666666666667vw,64px)
+$sixtyfourclamp: clamp(32px,3.3333333333333335vw,128px)
+$onetwoeightclamp: clamp(64px,6.666666666666667vw,256px)
+$twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
+
+// Text Size
+$mainHeading: clamp(40px,4.166666666666667vw,160px)
+$navigation: clamp(11.5px,1.1979166666666667vw,46px)
+$button: clamp(9.5px,0.9895833333333334vw,19px)
+$down: clamp(10.5px,1.09375vw,42px)
+$descripiton: clamp(12.5px,1.3020833333333333vw,50px)
+
+// Text Properties
+$fontWeight700: 700
+$fontWeight600: 600
+$fontWeight500: 500
+$fontWeight400: 400
+$fontWeight300: 300
+$fontStyle: normal
+$montserrat: 'Montserrat'
+$sourceSansPro: 'Source Sans Pro'
+
+// Fonts Import
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap')
+
+*
+
+    body
+
+        .main-screen
+            width: 100%
+            font-family: 'Montserrat'
+            font-style: normal
+            height: auto
+            display: flex
+            margin: auto
+            z-index: 10
+            flex-direction: column
+
+            .main-container
+                width: 86.45833333333333%
+                height: auto
+                display: flex
+                flex-direction: column
+                margin: auto
+
+                .navigation
+                    display: flex
+                    align-items: center
+                    justify-content: space-between
+                    font-family: 'Source Sans Pro'
+                    font-style: normal
+                    color: $white
+                    font-weight: 600
+                    font-size: $navigation
+                    margin-top: $thirtytwoclamp
+
+                    .honest-trading-logo
+                        cursor: pointer
+                        width: clamp(133px,13.854166666666666vw,532px)
+                        height: clamp(41px,4.270833333333333vw,164px)
+
+                    .navigation-links
+                        display: flex
+                        align-items: center
+                        margin-left: $thirtytwoclamp
+
+                        .main
+                            margin-right: $sixtyfourclamp
+
+                        .contact-with-us
+                            margin-left: $sixtyfourclamp
+
+                .main-content
+                    width: auto
+                    height: auto
+                    display: flex
+                    flex-direction: column
+                    margin-top: $onetwoeightclamp
+
+                    .main-heading
+                        font-family: 'Montserrat'
+                        font-style: normal
+                        font-weight: 700
+                        font-size: $mainHeading
+                        color: $green
+                        text-transform: uppercase
+
+                        .yellow
+                            color: $yellow
+
+                    .main-paragraph
+                        width: clamp(337.5px,35.15625vw,1350px)
+                        font-family: 'Source Sans Pro'
+                        font-style: normal
+                        font-weight: 400
+                        margin-top: $thirtytwoclamp
+                        font-size: $descripiton
+
+                    .consultation-button
+                        width: clamp(186.5px,19.427083333333332vw,746px)
+                        height: clamp(28.5px,2.96875vw,114px)
+                        border-radius: 62px
+                        font-family: 'Montserrat'
+                        font-style: normal
+                        font-weight: 600
+                        font-size: $button
+                        color: $white
+                        background-color: $green
+                        display: flex
+                        align-items: center
+                        justify-content: center
+                        margin-top: $sixtyfourclamp
+                        &:hover
+                            background-color: $hover_green
+
+                        .phone-icon
+                            margin-right: clamp(6px,0.625vw,24px)
+
+            .blob
+                width: clamp(556.19px,57.20729166666668vw,2224.76px)
+                height: clamp(653.87px,68.11145833333333vw,2615.48px)
+                position: absolute
+                z-index: -5
+                left: clamp(476.5px,49.635416666666664vw,1906px)
+                top: clamp(-176.4px,-18.375vw,-705.6px)

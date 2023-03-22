@@ -1,5 +1,8 @@
 import React from "react";
 
+// Element
+import DownSeparator from "../components/DownSeparator";
+
 // image
 import wheatPhoto from "../assets/wheat-about.svg";
 
