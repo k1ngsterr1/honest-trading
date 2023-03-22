@@ -16,6 +16,7 @@ const App = () => {
       <MainScreen></MainScreen>
       <CardsScreen></CardsScreen>
       <AboutScreen></AboutScreen>
+      <CulturesScreen></CulturesScreen>
       <Footer></Footer>
     </div>
   );

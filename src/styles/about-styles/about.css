@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+* body .about-screen {
+  width: 100%;
+  height: auto;
+  font-family: "Montserrat";
+  font-style: normal;
+  height: auto;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  z-index: 10;
+  flex-direction: column;
+  margin-top: clamp(64px, 6.6666666667vw, 256px);
+}
+* body .about-screen .about-container {
+  width: 86.4583333333%;
+  height: auto;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
+* body .about-screen .about-container .about-heading {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(30px, 3.125vw, 120px);
+  color: #305A02;
+  margin: auto;
+}
+* body .about-screen .about-container .number-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: clamp(127.5px, 13.28125vw, 510px);
+}
+* body .about-screen .about-container .number-list .second, * body .about-screen .about-container .number-list .third {
+  margin-top: clamp(32px, 3.3333333333vw, 128px);
+}
+* body .about-screen .about-container .number-list .first, * body .about-screen .about-container .number-list .second, * body .about-screen .about-container .number-list .third {
+  display: flex;
+  align-items: center;
+}
+* body .about-screen .about-container .number-list .first .s-01, * body .about-screen .about-container .number-list .first .s-02, * body .about-screen .about-container .number-list .first .s-03, * body .about-screen .about-container .number-list .second .s-01, * body .about-screen .about-container .number-list .second .s-02, * body .about-screen .about-container .number-list .second .s-03, * body .about-screen .about-container .number-list .third .s-01, * body .about-screen .about-container .number-list .third .s-02, * body .about-screen .about-container .number-list .third .s-03 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: clamp(27.5px, 2.8645833333vw, 110px);
+  color: #305A02;
+}
+* body .about-screen .about-container .number-list .first .description-01, * body .about-screen .about-container .number-list .first .description-02, * body .about-screen .about-container .number-list .first .description-03, * body .about-screen .about-container .number-list .second .description-01, * body .about-screen .about-container .number-list .second .description-02, * body .about-screen .about-container .number-list .second .description-03, * body .about-screen .about-container .number-list .third .description-01, * body .about-screen .about-container .number-list .third .description-02, * body .about-screen .about-container .number-list .third .description-03 {
+  width: clamp(324.5px, 33.8020833333vw, 1298px);
+  text-align: right;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(13px, 1.3541666667vw, 52px);
+  color: #1e1e1e;
+  margin-right: clamp(16px, 1.6666666667vw, 64px);
+}
+* body .about-screen .wheat-about {
+  position: absolute;
+  width: clamp(418px, 43.5416666667vw, 1672px);
+  height: clamp(548.5px, 57.1354166667vw, 2194px);
+  left: 0px;
+  top: clamp(857.5px, 89.3229166667vw, 3430px);
+}/*# sourceMappingURL=about.css.map */

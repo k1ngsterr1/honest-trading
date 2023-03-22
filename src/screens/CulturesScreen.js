@@ -8,6 +8,9 @@ import brown from "../assets/brown.svg";
 import gold from "../assets/gold.svg";
 import arrow from "../assets/arrow.svg";
 
+// styles
+import styles from "../styles/cultures-styles/cultures.css";
+
 const CulturesScreen = () => {
   return (
     <div className="culture-screen">
@@ -41,6 +44,7 @@ const CulturesScreen = () => {
             <h6 className="raps-heading">Рапс</h6>
           </div>
           <button className="contact-with-us">Связаться с нами</button>
+          <img className="arrow" src={arrow}></img>
         </div>
       </div>
     </div>

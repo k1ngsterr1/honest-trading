@@ -1,5 +1,7 @@
 import React from "react";
 
+import styles from "../styles/card-styles/cards.css";
+
 const CardsScreen = () => {
   function Card(props) {
     return (
