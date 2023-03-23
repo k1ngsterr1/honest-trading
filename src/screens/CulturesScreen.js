@@ -13,7 +13,7 @@ import styles from "../styles/cultures-styles/cultures.css";
 
 const CulturesScreen = () => {
   return (
-    <div className="culture-screen">
+    <div className="culture-screen" id="culture">
       <div className="culture-container">
         <h3 className="culture-heading">
           ПОСТАВЛЯЕМЫЕ <span className="yellow-cultures">КУЛЬТУРЫ</span>

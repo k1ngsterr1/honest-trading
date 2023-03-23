@@ -11,7 +11,7 @@ import wheatPhoto from "../assets/wheat-about.svg";
 
 const AboutScreen = () => {
   return (
-    <div className="about-screen">
+    <div className="about-screen" id="about">
       <div className="about-container">
         <h3 className="about-heading">О НАС</h3>
         <div className="number-list">

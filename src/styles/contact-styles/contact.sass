@@ -95,7 +95,7 @@ $sourceSansPro: 'Source Sans Pro'
 
                 .form
                     width: clamp(255.5px,26.614583333333332vw,1022px)
-                    height: clamp(348px,36.25vw,1392px)
+                    height: auto
                     display: flex
                     flex-direction: column
                     align-items: center
@@ -104,6 +104,7 @@ $sourceSansPro: 'Source Sans Pro'
                     border-radius: 14px
                     margin: auto
                     margin-top: $sixtyfourclamp
+                    margin-bottom: clamp(72.5px,7.552083333333333vw,290px)
 
                     .form-heading
                         width: clamp(129px,13.4375vw,516px)
@@ -114,25 +115,52 @@ $sourceSansPro: 'Source Sans Pro'
                         text-align: center
                         margin-top: $thirtytwoclamp
 
-                    .name-container
+                    .name-container, .phone-container, .email-container
                         display: flex
                         align-items: center
                         flex-direction: column
                         margin-top: $thirtytwoclamp
 
-                        .name-heading
+                        .name-heading, .phone-heading, .email-heading
                             font-family: 'Source Sans Pro'
                             font-style: normal
                             font-weight: 700
                             font-size: clamp(11.5px,1.1979166666666667vw,46px)
 
-                        .name-input
-                            width: 446px
-                            height: 58px
+                        .name-input, .phone-input, .email-input
+                            width: clamp(223px,23.229166666666668vw,892px)
+                            height: clamp(29px,3.0208333333333335vw,116px)
                             background: #EEEEEE
                             border-radius: 41px
                             font-family: 'Montserrat'
                             font-style: normal
                             font-weight: 400
-                            font-size: 18px
+                            font-size: clamp(9px,0.9375vw,36px)
+                            padding-left: clamp(10px,1.0416666666666667vw,40px)
                             color: $black
+                            margin-top: $sixteenclamp
+                            &:focus
+                                outline: none
+                                border: 2px solid green
+
+                    .form-paragraph
+                        width: clamp(180.5px,18.802083333333332vw,722px)
+                        font-family: 'Source Sans Pro'
+                        font-style: normal
+                        font-weight: 500
+                        font-size: clamp(8.5px,0.8854166666666666vw,34px)
+                        text-align: center
+                        margin-top: $thirtytwoclamp
+
+                    .form-button
+                        width: clamp(167px,17.395833333333332vw,668px)
+                        height: clamp(29px,3.0208333333333335vw,116px)
+                        background: #305A02
+                        border-radius: 88px
+                        font-family: 'Montserrat'
+                        font-style: normal
+                        font-weight: 700
+                        color: $white
+                        font-size: clamp(10px,1.0416666666666667vw,40px)
+                        margin-top: clamp(25px,2.6041666666666665vw,100px)
+                        margin-bottom: $thirtytwoclamp

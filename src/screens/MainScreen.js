@@ -15,7 +15,7 @@ import DownSeparator from "../components/DownSeparator";
 
 const MainScreen = () => {
   return (
-    <div className="main-screen">
+    <div className="main-screen" id="main">
       <main className="main-container">
         {/* Navigation */}
         <nav className="navigation">

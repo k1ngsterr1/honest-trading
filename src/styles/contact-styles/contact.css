@@ -54,7 +54,7 @@
 }
 * body .contact-screen .contact-container .form {
   width: clamp(255.5px, 26.6145833333vw, 1022px);
-  height: clamp(348px, 36.25vw, 1392px);
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -63,6 +63,7 @@
   border-radius: 14px;
   margin: auto;
   margin-top: clamp(32px, 3.3333333333vw, 128px);
+  margin-bottom: clamp(72.5px, 7.5520833333vw, 290px);
 }
 * body .contact-screen .contact-container .form .form-heading {
   width: clamp(129px, 13.4375vw, 516px);
@@ -73,26 +74,54 @@
   text-align: center;
   margin-top: clamp(16px, 1.6666666667vw, 64px);
 }
-* body .contact-screen .contact-container .form .name-container {
+* body .contact-screen .contact-container .form .name-container, * body .contact-screen .contact-container .form .phone-container, * body .contact-screen .contact-container .form .email-container {
   display: flex;
   align-items: center;
   flex-direction: column;
   margin-top: clamp(16px, 1.6666666667vw, 64px);
 }
-* body .contact-screen .contact-container .form .name-container .name-heading {
+* body .contact-screen .contact-container .form .name-container .name-heading, * body .contact-screen .contact-container .form .name-container .phone-heading, * body .contact-screen .contact-container .form .name-container .email-heading, * body .contact-screen .contact-container .form .phone-container .name-heading, * body .contact-screen .contact-container .form .phone-container .phone-heading, * body .contact-screen .contact-container .form .phone-container .email-heading, * body .contact-screen .contact-container .form .email-container .name-heading, * body .contact-screen .contact-container .form .email-container .phone-heading, * body .contact-screen .contact-container .form .email-container .email-heading {
   font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: 700;
   font-size: clamp(11.5px, 1.1979166667vw, 46px);
 }
-* body .contact-screen .contact-container .form .name-container .name-input {
-  width: 446px;
-  height: 58px;
+* body .contact-screen .contact-container .form .name-container .name-input, * body .contact-screen .contact-container .form .name-container .phone-input, * body .contact-screen .contact-container .form .name-container .email-input, * body .contact-screen .contact-container .form .phone-container .name-input, * body .contact-screen .contact-container .form .phone-container .phone-input, * body .contact-screen .contact-container .form .phone-container .email-input, * body .contact-screen .contact-container .form .email-container .name-input, * body .contact-screen .contact-container .form .email-container .phone-input, * body .contact-screen .contact-container .form .email-container .email-input {
+  width: clamp(223px, 23.2291666667vw, 892px);
+  height: clamp(29px, 3.0208333333vw, 116px);
   background: #EEEEEE;
   border-radius: 41px;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: clamp(9px, 0.9375vw, 36px);
+  padding-left: clamp(10px, 1.0416666667vw, 40px);
   color: #1e1e1e;
+  margin-top: clamp(8px, 0.8333333333vw, 32px);
+}
+* body .contact-screen .contact-container .form .name-container .name-input:focus, * body .contact-screen .contact-container .form .name-container .phone-input:focus, * body .contact-screen .contact-container .form .name-container .email-input:focus, * body .contact-screen .contact-container .form .phone-container .name-input:focus, * body .contact-screen .contact-container .form .phone-container .phone-input:focus, * body .contact-screen .contact-container .form .phone-container .email-input:focus, * body .contact-screen .contact-container .form .email-container .name-input:focus, * body .contact-screen .contact-container .form .email-container .phone-input:focus, * body .contact-screen .contact-container .form .email-container .email-input:focus {
+  outline: none;
+  border: 2px solid green;
+}
+* body .contact-screen .contact-container .form .form-paragraph {
+  width: clamp(180.5px, 18.8020833333vw, 722px);
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: clamp(8.5px, 0.8854166667vw, 34px);
+  text-align: center;
+  margin-top: clamp(16px, 1.6666666667vw, 64px);
+}
+* body .contact-screen .contact-container .form .form-button {
+  width: clamp(167px, 17.3958333333vw, 668px);
+  height: clamp(29px, 3.0208333333vw, 116px);
+  background: #305A02;
+  border-radius: 88px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: clamp(10px, 1.0416666667vw, 40px);
+  margin-top: clamp(25px, 2.6041666667vw, 100px);
+  margin-bottom: clamp(16px, 1.6666666667vw, 64px);
 }/*# sourceMappingURL=contact.css.map */
