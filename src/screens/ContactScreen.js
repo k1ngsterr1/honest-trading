@@ -20,7 +20,43 @@ const ContactScreen = () => {
           <h5 className="form-heading">Оставить заявку на консультацию</h5>
           <div className="name-container">
             <h6 className="name-heading">Ваше ФИО</h6>
+            <input
+              className="name-input"
+              type="text"
+              name="name"
+              required={true}
+              placeholder="Иван Иванов Иванович"
+            ></input>
           </div>
+          <div className="phone-container">
+            <h6 className="phone-heading">Номер телефона</h6>
+            <input
+              className="phone-input"
+              type="tel"
+              minLength="10"
+              maxLength="11"
+              name="phone"
+              required={true}
+              placeholder="+7 (___) ___ - __ - __"
+            ></input>
+          </div>
+          <div className="email-container">
+            <h6 className="email-heading">Почта</h6>
+            <input
+              className="email-input"
+              type="email"
+              name="email"
+              required={true}
+              placeholder="example@gmail.com"
+            ></input>
+          </div>
+          <p className="form-paragraph">
+            Мы свяжемся с Вами в ближайшее время. Ваши данные не будут переданы
+            третьим лицам.
+          </p>
+          <button className="form-button" value="Send">
+            Отправить
+          </button>
         </form>
       </div>
     </div>
