@@ -24,11 +24,13 @@ const MainScreen = () => {
         <nav className="navigation">
           <img className="honest-trading-logo" src={logo} alt="logo"></img>
           <div className="navigation-links">
-            <a className="main">Главная</a>
+            <Link className="main" smooth={true} to="main">
+              Главная
+            </Link>
             <Link className="about-us" to="about-screen" smooth={true}>
               О нас
             </Link>
-            <Link className="contact-with-us" to="contact-us" smooth={true}>
+            <Link className="contact-with-us" to="contact" smooth={true}>
               Связаться с нами
             </Link>
           </div>
@@ -44,11 +46,10 @@ const MainScreen = () => {
               justo imperdiet venenatis viverra ullamcorper neque amet eget. At
               non laoreet id vitae vel.
             </p>
-            <button className="consultation-button">
+            <Link to="form" smooth={true} className="consultation-button">
               <BsFillTelephoneFill className="phone-icon"></BsFillTelephoneFill>
               Получить консультацию
-            </button>
-
+            </Link>
             <DownSeparator></DownSeparator>
           </div>
         </Slide>

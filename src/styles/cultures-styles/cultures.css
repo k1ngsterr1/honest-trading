@@ -30,6 +30,9 @@
   margin: auto;
   background-color: #305A02;
   margin-top: clamp(64px, 6.6666666667vw, 256px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 * body .culture-screen .culture-container .contact-with-us:hover {
   background-color: #294D02;

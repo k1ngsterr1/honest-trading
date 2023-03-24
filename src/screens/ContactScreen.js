@@ -16,7 +16,7 @@ const ContactScreen = () => {
           aliquet. Mattis neque facilisi varius lacus urna feugiat ac. Felis in
           risus cras nunc viverra vitae volutpat venenatis.
         </p>
-        <form className="form">
+        <form className="form" id="form">
           <h5 className="form-heading">Оставить заявку на консультацию</h5>
           <div className="name-container">
             <h6 className="name-heading">Ваше ФИО</h6>

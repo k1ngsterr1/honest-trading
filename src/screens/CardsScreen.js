@@ -4,6 +4,11 @@ import styles from "../styles/card-styles/cards.css";
 
 import Bounce from "react-reveal/Bounce";
 
+import wheat from "../assets/Wheat-Icon.svg";
+import handShake from "../assets/HandShake.svg";
+import moneyHand from "../assets/MoneyHand.svg";
+import truck from "../assets/Truck.svg";
+
 const CardsScreen = () => {
   function Card(props) {
     return (
@@ -17,26 +22,28 @@ const CardsScreen = () => {
 
   return (
     <div className="cards-container">
-      <Card
-        view={require("../assets/wheat.svg")}
-        heading="Заголовок"
-        description="Lorem ipsum dolor sit amet consectetur. Nunc donec ullamcorper viverra lectus quis pretium volutpat eget. Aliquam ultrices tincidunt nulla commodo."
-      />
-      <Card
-        view={require("../assets/HandShake.svg")}
-        heading="Заголовок"
-        description="Lorem ipsum dolor sit amet consectetur. Nunc donec ullamcorper viverra lectus quis pretium volutpat eget. Aliquam ultrices tincidunt nulla commodo."
-      />
-      <Card
-        view={require("../assets/MoneyHand.svg")}
-        heading="Заголовок"
-        description="Lorem ipsum dolor sit amet consectetur. Nunc donec ullamcorper viverra lectus quis pretium volutpat eget. Aliquam ultrices tincidunt nulla commodo."
-      />
-      <Card
-        view={require("../assets/Truck.svg")}
-        heading="Заголовок"
-        description="Lorem ipsum dolor sit amet consectetur. Nunc donec ullamcorper viverra lectus quis pretium volutpat eget. Aliquam ultrices tincidunt nulla commodo."
-      />
+      <Bounce bottom>
+        <Card
+          view={wheat}
+          heading="Заголовок"
+          description="Lorem ipsum dolor sit amet consectetur. Nunc donec ullamcorper viverra lectus quis pretium volutpat eget. Aliquam ultrices tincidunt nulla commodo."
+        />
+        <Card
+          view={handShake}
+          heading="Заголовок"
+          description="Lorem ipsum dolor sit amet consectetur. Nunc donec ullamcorper viverra lectus quis pretium volutpat eget. Aliquam ultrices tincidunt nulla commodo."
+        />
+        <Card
+          view={moneyHand}
+          heading="Заголовок"
+          description="Lorem ipsum dolor sit amet consectetur. Nunc donec ullamcorper viverra lectus quis pretium volutpat eget. Aliquam ultrices tincidunt nulla commodo."
+        />
+        <Card
+          view={truck}
+          heading="Заголовок"
+          description="Lorem ipsum dolor sit amet consectetur. Nunc donec ullamcorper viverra lectus quis pretium volutpat eget. Aliquam ultrices tincidunt nulla commodo."
+        />
+      </Bounce>
     </div>
   );
 };
