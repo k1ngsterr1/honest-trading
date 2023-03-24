@@ -13,6 +13,9 @@ import logo from "../assets/honest_trading.png";
 import blob from "../assets/main_blob.svg";
 import DownSeparator from "../components/DownSeparator";
 
+// Animation
+import Slide from "react-reveal/Slide";
+
 const MainScreen = () => {
   return (
     <div className="main-screen" id="main">
@@ -30,22 +33,25 @@ const MainScreen = () => {
             </Link>
           </div>
         </nav>
-        <div className="main-content">
-          <h1 className="main-heading">
-            Экспорт <span className="yellow">Зерна</span>
-          </h1>
-          <p className="main-paragraph">
-            Lorem ipsum dolor sit amet consectetur. Dolor volutpat in sed eget
-            cursus aliquam ac. A magna et phasellus mauris. Neque curabitur
-            justo imperdiet venenatis viverra ullamcorper neque amet eget. At
-            non laoreet id vitae vel.
-          </p>
-          <button className="consultation-button">
-            <BsFillTelephoneFill className="phone-icon"></BsFillTelephoneFill>
-            Получить консультацию
-          </button>
-          <DownSeparator></DownSeparator>
-        </div>
+        <Slide left>
+          <div className="main-content">
+            <h1 className="main-heading">
+              Экспорт <span className="yellow">Зерна</span>
+            </h1>
+            <p className="main-paragraph">
+              Lorem ipsum dolor sit amet consectetur. Dolor volutpat in sed eget
+              cursus aliquam ac. A magna et phasellus mauris. Neque curabitur
+              justo imperdiet venenatis viverra ullamcorper neque amet eget. At
+              non laoreet id vitae vel.
+            </p>
+            <button className="consultation-button">
+              <BsFillTelephoneFill className="phone-icon"></BsFillTelephoneFill>
+              Получить консультацию
+            </button>
+
+            <DownSeparator></DownSeparator>
+          </div>
+        </Slide>
       </main>
       <img className="blob" src={blob}></img>
     </div>

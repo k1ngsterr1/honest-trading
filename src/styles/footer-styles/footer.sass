@@ -46,6 +46,7 @@ $sourceSansPro: 'Source Sans Pro'
             height: auto
             display: flex
             margin: auto
+            flex-direction: column
 
             .footer-container
                 width: 86.45833333333333%
@@ -109,3 +110,20 @@ $sourceSansPro: 'Source Sans Pro'
                     margin-top: clamp(13.5px,1.40625vw,54px)
                     &:hover
                         background-color: $hover_green
+
+            .footer-separator
+                width: 86.45833333333333%
+                height: 1px
+                background-color: $green
+                margin: auto
+                margin-top: $thirtytwoclamp
+
+            .footer-text
+                font-family: 'Montserrat'
+                font-style: normal
+                font-weight: 500
+                font-size: clamp(10px,1.0416666666666667vw,40px)
+                text-align: center
+                color: #1E1E1E
+                margin-top: $thirtytwoclamp
+                margin-bottom: $thirtytwoclamp

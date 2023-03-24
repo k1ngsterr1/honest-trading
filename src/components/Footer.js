@@ -38,6 +38,9 @@ const Footer = () => {
           Подняться вверх
         </Link>
       </div>
+
+      <span className="footer-separator"></span>
+      <text className="footer-text">Copyright Honest Trading</text>
     </footer>
   );
 };
