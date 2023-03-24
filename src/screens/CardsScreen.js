@@ -2,6 +2,8 @@ import React from "react";
 
 import styles from "../styles/card-styles/cards.css";
 
+import Bounce from "react-reveal/Bounce";
+
 const CardsScreen = () => {
   function Card(props) {
     return (
