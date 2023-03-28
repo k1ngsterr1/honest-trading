@@ -10,7 +10,7 @@
 }
 * body .cards-container .card-content {
   width: clamp(154.5px, 16.09375vw, 618px) !important;
-  height: auto;
+  height: clamp(252.5px, 26.3020833333vw, 1010px);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,7 +36,7 @@
   font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: 400;
-  font-size: 20px !important;
+  font-size: clamp(10px, 1.0416666667vw, 40px) !important;
   color: #1e1e1e;
   margin-top: clamp(16px, 1.6666666667vw, 64px);
   margin-bottom: clamp(38px, 3.9583333333vw, 152px);

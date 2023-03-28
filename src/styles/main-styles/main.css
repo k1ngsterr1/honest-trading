@@ -55,10 +55,11 @@
   margin-top: clamp(64px, 6.6666666667vw, 256px);
 }
 * body .main-screen .main-container .main-content .main-heading {
+  width: clamp(434px, 45.2083333333vw, 1736px);
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
-  font-size: clamp(40px, 4.1666666667vw, 160px);
+  font-size: clamp(27.5px, 2.8645833333vw, 110px);
   color: #305A02;
   text-transform: uppercase;
 }
@@ -95,12 +96,12 @@
   margin-right: clamp(6px, 0.625vw, 24px);
 }
 * body .main-screen .blob {
-  width: clamp(556.19px, 57.2072916667vw, 2224.76px);
-  height: clamp(653.87px, 68.1114583333vw, 2615.48px);
+  width: 1330px;
+  height: 1430.94px;
   position: absolute;
   z-index: -5;
-  left: clamp(476.5px, 49.6354166667vw, 1906px);
-  top: clamp(-176.4px, -18.375vw, -705.6px);
+  left: 800.03px;
+  top: -132px;
 }
 * body .main-screen .main-screen-image {
   position: absolute;

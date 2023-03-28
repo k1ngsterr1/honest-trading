@@ -39,7 +39,8 @@ const MainScreen = () => {
         <Slide left>
           <div className="main-content">
             <h1 className="main-heading">
-              Экспорт <span className="yellow">Зерна</span>
+              Честный <span className="yellow">зерновой</span> бизнес с honest{" "}
+              <span className="yellow">trading.</span>
             </h1>
             <p className="main-paragraph">
               Наша компания предлагает услуги по торговле зерном высокого

@@ -26,22 +26,22 @@ const CardsScreen = () => {
         <Card
           view={wheat}
           heading="Лучшее качество"
-          description="Lorem ipsum dolor sit amet consectetur. Nunc donec ullamcorper viverra lectus quis pretium volutpat eget. Aliquam ultrices tincidunt nulla commodo."
+          description=" Мы тщательно отбираем зерно от производителей-партнеров, чтобы обеспечить нашим клиентам только высококачественный продукт."
         />
         <Card
           view={handShake}
-          heading="Заголовок"
-          description="Lorem ipsum dolor sit amet consectetur. Nunc donec ullamcorper viverra lectus quis pretium volutpat eget. Aliquam ultrices tincidunt nulla commodo."
+          heading="Партнерство"
+          description="Мы готовы стать вашим надежным партнером в торговле зерном. Мы стремимся к долгосрочным отношениям и предлагаем честные условия сотрудничества."
         />
         <Card
           view={moneyHand}
-          heading="Заголовок"
-          description="Lorem ipsum dolor sit amet consectetur. Nunc donec ullamcorper viverra lectus quis pretium volutpat eget. Aliquam ultrices tincidunt nulla commodo."
+          heading="Лучшие цены"
+          description="Компания Honest Trading предлагает лучшие цены на зерновые культуры на рынке. Мы постоянно отслеживаем изменения цен и стараемся предоставлять нашим клиентам самые выгодные условия покупки"
         />
         <Card
           view={truck}
-          heading="Заголовок"
-          description="Lorem ipsum dolor sit amet consectetur. Nunc donec ullamcorper viverra lectus quis pretium volutpat eget. Aliquam ultrices tincidunt nulla commodo."
+          heading="Логистика"
+          description="Компания Honest Trading является экспортером зерновых культур высокого качества. Мы предлагаем широкий выбор зерновых культур и готовы к экспорту в различные страны мира."
         />
       </Bounce>
     </div>
