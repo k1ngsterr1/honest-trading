@@ -101,4 +101,11 @@
   z-index: -5;
   left: clamp(476.5px, 49.6354166667vw, 1906px);
   top: clamp(-176.4px, -18.375vw, -705.6px);
+}
+* body .main-screen .main-screen-image {
+  position: absolute;
+  width: clamp(471px, 49.0625vw, 1884px);
+  height: clamp(489.5px, 50.9895833333vw, 1958px);
+  left: clamp(489px, 50.9375vw, 1956px);
+  top: clamp(103.5px, 10.78125vw, 414px);
 }/*# sourceMappingURL=main.css.map */

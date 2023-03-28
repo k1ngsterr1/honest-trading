@@ -12,6 +12,7 @@ import styles from "../styles/main-styles/main.css";
 import logo from "../assets/honest_trading.png";
 import blob from "../assets/main_blob.svg";
 import DownSeparator from "../components/DownSeparator";
+import wheat from "../assets/wheat-main.svg";
 
 // Animation
 import Slide from "react-reveal/Slide";
@@ -41,10 +42,10 @@ const MainScreen = () => {
               Экспорт <span className="yellow">Зерна</span>
             </h1>
             <p className="main-paragraph">
-              Lorem ipsum dolor sit amet consectetur. Dolor volutpat in sed eget
-              cursus aliquam ac. A magna et phasellus mauris. Neque curabitur
-              justo imperdiet venenatis viverra ullamcorper neque amet eget. At
-              non laoreet id vitae vel.
+              Наша компания предлагает услуги по торговле зерном высокого
+              качества. Мы специализируемся на продаже зерновых культур, таких
+              как пшеница, ячмень, овес и других, а также предоставляем услуги
+              по их хранению и перевозке.
             </p>
             <Link to="form" smooth={true} className="consultation-button">
               <BsFillTelephoneFill className="phone-icon"></BsFillTelephoneFill>
@@ -54,7 +55,8 @@ const MainScreen = () => {
           </div>
         </Slide>
       </main>
-      <img className="blob" src={blob}></img>
+      <img className="main-screen-image" src={wheat} alt="wheat"></img>
+      <img className="blob" src={blob} alt="blob"></img>
     </div>
   );
 };

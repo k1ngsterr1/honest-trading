@@ -21,25 +21,25 @@ const AboutScreen = () => {
           <div className="number-list">
             <div className="first">
               <p className="description-01">
-                Lorem ipsum dolor sit amet consectetur. Faucibus id massa
-                volutpat turpis. Sagittis et mattis vitae diam consectetur
-                sollicitudin.
+                Компания "Honest Trading" - это профессиональная команда,
+                занимающаяся торговлей зерном высокого качества.
               </p>
               <span className="s-01">01</span>
             </div>
             <div className="second">
               <p className="description-02">
-                Lorem ipsum dolor sit amet consectetur. Faucibus id massa
-                volutpat turpis. Sagittis et mattis vitae diam consectetur
-                sollicitudin.
+                Наша компания имеет многолетний опыт в отрасли и предоставляет
+                широкий спектр услуг по продаже зерновых культур, а также услуги
+                по их хранению и перевозке.
               </p>
               <span className="s-02">02</span>
             </div>
             <div className="third">
               <p className="description-03">
-                Lorem ipsum dolor sit amet consectetur. Faucibus id massa
-                volutpat turpis. Sagittis et mattis vitae diam consectetur
-                sollicitudin.
+                Мы готовы предоставить вам только лучшее качество зерна по
+                доступным ценам. Обращайтесь к нам сегодня, чтобы получить
+                высококачественный товар и узнать, как мы можем помочь вам
+                достичь успеха в вашем бизнесе!
               </p>
               <span className="s-03">03</span>
             </div>

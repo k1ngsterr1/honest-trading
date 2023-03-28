@@ -40,7 +40,7 @@ const Footer = () => {
       </div>
 
       <span className="footer-separator"></span>
-      <text className="footer-text">Copyright Honest Trading</text>
+      <p className="footer-text">Copyright Honest Trading</p>
     </footer>
   );
 };

@@ -47,10 +47,8 @@ const ContactScreen = () => {
           ПОЛУЧИТЕ КОНСУЛЬТАЦИЮ ОТ ЭКСПЕРТА!
         </h4>
         <p className="contact-paragraph">
-          Lorem ipsum dolor sit amet consectetur. Aliquam id metus est eleifend
-          tempus proin hendrerit sed. Tellus amet vel luctus dapibus ornare
-          aliquet. Mattis neque facilisi varius lacus urna feugiat ac. Felis in
-          risus cras nunc viverra vitae volutpat venenatis.
+          Обращайтесь к нам сегодня, чтобы получить высококачественное зерно по
+          привлекательным ценам и качественный сервис, который вы заслуживаете!
         </p>
         <form className="form" id="form" ref={form} onSubmit={sendEmail}>
           <h5 className="form-heading">Оставить заявку на консультацию</h5>

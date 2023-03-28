@@ -25,7 +25,7 @@ const CardsScreen = () => {
       <Bounce bottom>
         <Card
           view={wheat}
-          heading="Заголовок"
+          heading="Лучшее качество"
           description="Lorem ipsum dolor sit amet consectetur. Nunc donec ullamcorper viverra lectus quis pretium volutpat eget. Aliquam ultrices tincidunt nulla commodo."
         />
         <Card
