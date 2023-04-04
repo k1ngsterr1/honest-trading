@@ -89,7 +89,7 @@ $sourceSansPro: 'Source Sans Pro'
                     font-size: clamp(30px,3.125vw,120px)
                     text-transform: uppercase
                     color: $green
-                    margin: auto
+                    // margin: auto
 
                     .yellow-cultures
                         color: $yellow
@@ -132,3 +132,78 @@ $sourceSansPro: 'Source Sans Pro'
                             text-align: center
                             margin-top: clamp(10px,1.0416666666666667vw,40px)
                             color: $black
+
+@media screen  and (max-width: 448px)
+
+    .culture-screen
+        width: 100%
+        font-family: 'Montserrat'
+        font-style: normal
+        height: auto
+        display: flex
+        margin: auto
+        z-index: 10
+        flex-direction: column
+        margin-top: clamp(85px,39.7196261682243vw,340px) !important
+
+        .culture-container
+            width: 86.45833333333333%
+            height: auto
+            display: flex !important
+            flex-direction: column !important
+            align-items: center !important
+            margin: auto !important
+
+            .culture-heading
+                width: clamp(200px,93.45794392523365vw,800px) !important
+                margin-top: clamp(32px,14.953271028037383vw,128px) !important
+                font-size: clamp(16px,7.4766355140186915vw,64px) !important
+                display: flex !important
+                align-items: center !important
+                flex-direction: column !important
+
+            .culture-paragraph
+                width: clamp(324.5px,33.802083333333336vw,1298px)
+                font-family: 'Source Sans Pro'
+                font-style: normal
+                font-weight: 400
+                font-size: clamp(9.5px,4.4392523364485985vw,38px) !important
+                text-align: center
+                color: $black
+                margin: auto
+                margin-top: clamp(16px,7.4766355140186915vw,64px) !important
+
+            .cultures-photo
+                display: flex !important
+                flex-direction: column !important
+                margin-top: clamp(24px,11.214953271028037vw,96px) !important
+
+                .soft-wheat-container, .hard-wheat-container, .brown-container, .gold-container, .raps-container
+                    display: flex
+                    flex-direction: column
+                    justify-content: center
+                    align-items: center
+
+                    .soft-wheat, .hard-wheat, .brown, .gold, .raps
+                        width: clamp(80px,37.38317757009346vw,320px) !important
+                        height: clamp(80px,37.38317757009346vw,320px) !important
+                        margin-top: 64px !important
+
+                    .soft-wheat-heading, .hard-wheat-heading, .brown-heading, .gold-heading, .raps-heading
+                        font-family: 'Source Sans Pro'
+                        font-style: normal
+                        font-weight: 600
+                        font-size: clamp(10px,4.672897196261682vw,40px) !important
+                        text-align: center
+                        margin-top: 16px !important
+                        color: $black
+
+            .contact-with-us
+                width: clamp(150px,70.09345794392523vw,600px) !important
+                height: clamp(24.5px,11.448598130841122vw,98px) !important
+                font-size: clamp(9.5px,4.4392523364485985vw,38px) !important
+
+            .arrow
+                width: clamp(6.5px,3.0373831775700935vw,26px) !important
+                height: clamp(100px,46.728971962616825vw,400px) !important
+                margin-top: clamp(16px,7.4766355140186915vw,64px) !important

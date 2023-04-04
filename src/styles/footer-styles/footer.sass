@@ -127,3 +127,40 @@ $sourceSansPro: 'Source Sans Pro'
                 color: #1E1E1E
                 margin-top: $thirtytwoclamp
                 margin-bottom: $thirtytwoclamp
+
+@media screen  and (max-width: 448px)
+
+    .footer
+        width: 100%
+        height: auto
+        display: flex
+        margin: auto
+        flex-direction: column
+
+        .footer-container
+            width: 86.45833333333333%
+            height: auto
+            display: flex
+            justify-content: space-between
+            margin: auto
+            margin-top: $thirtytwoclamp
+
+            .logo-container
+                width: auto
+                height: auto
+                display: none !important
+                flex-direction: column
+
+            .footer-navigation
+                margin: auto
+                margin-top: clamp(20px,2.0833333333333335vw,80px)
+
+                .main-footer-link, .about-footer-link, .contact-footer-link
+                    font-family: 'Source Sans Pro'
+                    font-style: normal
+                    font-weight: 600
+                    font-size: clamp(9px,4.205607476635514vw,36px) !important
+                    color: $green
+
+            .upper-button
+                display: none !important

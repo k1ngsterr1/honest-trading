@@ -20,6 +20,7 @@ const AboutScreen = () => {
         <Slide right>
           <div className="number-list">
             <div className="first">
+              <span className="s-01-mob">01</span>
               <p className="description-01">
                 Компания "Honest Trading" - это профессиональная команда,
                 занимающаяся торговлей зерном высокого качества.
@@ -27,6 +28,7 @@ const AboutScreen = () => {
               <span className="s-01">01</span>
             </div>
             <div className="second">
+              <span className="s-02-mob">02</span>
               <p className="description-02">
                 Наша компания имеет многолетний опыт в отрасли и предоставляет
                 широкий спектр услуг по продаже зерновых культур, а также услуги
@@ -35,6 +37,7 @@ const AboutScreen = () => {
               <span className="s-02">02</span>
             </div>
             <div className="third">
+              <span className="s-03-mob">03</span>
               <p className="description-03">
                 Мы готовы предоставить вам только лучшее качество зерна по
                 доступным ценам. Обращайтесь к нам сегодня, чтобы получить

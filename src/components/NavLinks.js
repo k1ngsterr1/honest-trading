@@ -6,19 +6,19 @@ import { Link } from "react-scroll";
 const NavLinks = () => {
   return (
     <nav className="mobile-nav-links">
-      <Link to="#about" className="about-mob-link" id="about-n" smooth={true}>
+      <Link to="about" className="about-mob-link" id="about-n" smooth={true}>
         О компании
       </Link>
       <Link
-        to="#services"
+        to="culture"
         className="services-mob-link"
         id="services-n"
         smooth={true}
       >
-        Услуги
+        Культуры
       </Link>
       <Link
-        to="#contacts"
+        to="contact"
         className="contacts-mob-link"
         id="contacts-n"
         smooth={true}

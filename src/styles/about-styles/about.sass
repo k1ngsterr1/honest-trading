@@ -83,6 +83,9 @@ $sourceSansPro: 'Source Sans Pro'
                         display: flex
                         align-items: center
 
+                        .s-01-mob, .s-02-mob, .s-03-mob
+                            display: none
+
                         .s-01, .s-02, .s-03
                             font-family: 'Montserrat'
                             font-style: normal
@@ -125,10 +128,60 @@ $sourceSansPro: 'Source Sans Pro'
             width: 86.45833333333333%
             height: auto
             display: flex
-            align-items: flex-end
-            justify-content: center
+            align-items: center !important
+            justify-content: center !important
             flex-direction: column
             margin: auto
+
+            .about-heading
+                margin-top: clamp(32px,14.953271028037383vw,128px) !important
+                font-size: clamp(16px,7.4766355140186915vw,64px) !important
+                display: flex !important
+                align-items: center !important
+                justify-content: center !important
+
+            .number-list
+                display: flex !important
+                flex-direction: column !important
+                align-items: center !important
+                justify-content: center !important
+                margin-top: clamp(32px,14.953271028037383vw,128px) !important
+
+            .first, .second, .third
+                display: flex !important
+                flex-direction: column !important
+                align-items: center !important
+                justify-content: center !important
+
+                .s-01-mob, .s-02-mob, .s-03-mob
+                    font-family: 'Montserrat'
+                    font-style: normal
+                    display: flex !important
+                    font-weight: 900
+                    font-size: clamp(17.5px,8.177570093457945vw,70px) !important
+                    color: $green
+
+                .description-01, .description-02, .description-03
+                    font-size: clamp(9px,4.205607476635514vw,36px) !important
+                    text-align: center !important
+                    margin-right: 0 !important
+                    margin-left: 0 !important
+                    margin-top: clamp(8px,3.7383177570093458vw,32px) !important
+
+                .s-01, .s-02, .s-03
+                    display: none !important
+
+            .down-separator
+                display: flex !important
+                margin-top: clamp(24px,11.214953271028037vw,96px) !important
+
+                .separator
+                    width: 3px !important
+                    height: clamp(95px,44.39252336448598vw,380px) !important
+
+                .down-text
+                    font-size: clamp(10px,4.672897196261682vw,40px) !important
+                    margin-top: clamp(16px,7.4766355140186915vw,64px) !important
 
         .wheat-about
             display: none !important

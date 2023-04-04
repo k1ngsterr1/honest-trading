@@ -165,3 +165,53 @@ $sourceSansPro: 'Source Sans Pro'
                         font-size: clamp(10px,1.0416666666666667vw,40px)
                         margin-top: clamp(25px,2.6041666666666665vw,100px)
                         margin-bottom: $thirtytwoclamp
+
+@media screen  and (max-width: 448px)
+
+    .contact-screen
+        width: 100% !important
+        height: auto !important
+        background-size: cover !important
+        background-position: center !important
+        background-image: url(../../assets/Contact_Background.svg) !important
+        font-family: 'Montserrat' !important
+        font-style: normal
+        height: auto
+        display: flex
+        align-items: center
+        margin: auto
+        z-index: 10
+        flex-direction: rfcolumn
+        margin-top: $onetwoeightclamp
+
+        .contact-paragraph
+            font-size: clamp(9.5px,4.4392523364485985vw,38px) !important
+
+        .form
+            width: clamp(175px,81.77570093457943vw,700px) !important
+            height: auto !important
+
+            .form-heading
+                width: clamp(100px,46.728971962616825vw,400px) !important
+                font-size: clamp(10.5px,4.906542056074766vw,42px) !important
+
+            .name-container, .phone-container, .email-container
+                margin-top: clamp(16px,7.4766355140186915vw,64px) !important
+
+                .name-heading, .phone-heading, .email-heading
+                    font-size: clamp(8.5px,3.97196261682243vw,34px) !important
+
+                .name-input, .phone-input, .email-input
+                    width: clamp(145px,67.75700934579439vw,580px) !important
+                    height: clamp(23px,10.74766355140187vw,92px) !important
+                    font-size: clamp(6.5px, 3.0373831775700935vw,26px) !important
+
+            .form-paragraph
+                width: clamp(150px,70.09345794392523vw,600px) !important
+                font-size: clamp(7.5px,3.5046728971962615vw,30px) !important
+                margin-top: clamp(12px,5.607476635514018vw,48px) !important
+
+            .form-button
+                width: clamp(135px,63.08411214953271vw,540px) !important
+                height: clamp(21.5px,10.046728971962617vw,86px) !important
+                font-size: clamp(7.5px,3.5046728971962615vw,30px) !important

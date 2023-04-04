@@ -22,7 +22,8 @@ const CulturesScreen = () => {
     <div className="culture-screen" id="culture">
       <div className="culture-container">
         <h3 className="culture-heading">
-          ПОСТАВЛЯЕМЫЕ <span className="yellow-cultures">КУЛЬТУРЫ</span>
+          ПОСТАВЛЯЕМЫЕ
+          <span className="yellow-cultures"> КУЛЬТУРЫ</span>
         </h3>
         <Bounce bottom>
           <p className="culture-paragraph">

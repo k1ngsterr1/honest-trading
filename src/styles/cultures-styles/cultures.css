@@ -49,7 +49,6 @@
   font-size: clamp(30px, 3.125vw, 120px);
   text-transform: uppercase;
   color: #305A02;
-  margin: auto;
 }
 * body .culture-screen .culture-container .culture-heading .yellow-cultures {
   color: #D6BF1C;
@@ -92,4 +91,80 @@
   text-align: center;
   margin-top: clamp(10px, 1.0416666667vw, 40px);
   color: #1e1e1e;
+}
+
+@media screen and (max-width: 448px) {
+  .culture-screen {
+    width: 100%;
+    font-family: "Montserrat";
+    font-style: normal;
+    height: auto;
+    display: flex;
+    margin: auto;
+    z-index: 10;
+    flex-direction: column;
+    margin-top: clamp(85px, 39.7196261682vw, 340px) !important;
+  }
+  .culture-screen .culture-container {
+    width: 86.4583333333%;
+    height: auto;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    margin: auto !important;
+  }
+  .culture-screen .culture-container .culture-heading {
+    width: clamp(200px, 93.4579439252vw, 800px) !important;
+    margin-top: clamp(32px, 14.953271028vw, 128px) !important;
+    font-size: clamp(16px, 7.476635514vw, 64px) !important;
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: column !important;
+  }
+  .culture-screen .culture-container .culture-paragraph {
+    width: clamp(324.5px, 33.8020833333vw, 1298px);
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(9.5px, 4.4392523364vw, 38px) !important;
+    text-align: center;
+    color: #1e1e1e;
+    margin: auto;
+    margin-top: clamp(16px, 7.476635514vw, 64px) !important;
+  }
+  .culture-screen .culture-container .cultures-photo {
+    display: flex !important;
+    flex-direction: column !important;
+    margin-top: clamp(24px, 11.214953271vw, 96px) !important;
+  }
+  .culture-screen .culture-container .cultures-photo .soft-wheat-container, .culture-screen .culture-container .cultures-photo .hard-wheat-container, .culture-screen .culture-container .cultures-photo .brown-container, .culture-screen .culture-container .cultures-photo .gold-container, .culture-screen .culture-container .cultures-photo .raps-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .culture-screen .culture-container .cultures-photo .soft-wheat-container .soft-wheat, .culture-screen .culture-container .cultures-photo .soft-wheat-container .hard-wheat, .culture-screen .culture-container .cultures-photo .soft-wheat-container .brown, .culture-screen .culture-container .cultures-photo .soft-wheat-container .gold, .culture-screen .culture-container .cultures-photo .soft-wheat-container .raps, .culture-screen .culture-container .cultures-photo .hard-wheat-container .soft-wheat, .culture-screen .culture-container .cultures-photo .hard-wheat-container .hard-wheat, .culture-screen .culture-container .cultures-photo .hard-wheat-container .brown, .culture-screen .culture-container .cultures-photo .hard-wheat-container .gold, .culture-screen .culture-container .cultures-photo .hard-wheat-container .raps, .culture-screen .culture-container .cultures-photo .brown-container .soft-wheat, .culture-screen .culture-container .cultures-photo .brown-container .hard-wheat, .culture-screen .culture-container .cultures-photo .brown-container .brown, .culture-screen .culture-container .cultures-photo .brown-container .gold, .culture-screen .culture-container .cultures-photo .brown-container .raps, .culture-screen .culture-container .cultures-photo .gold-container .soft-wheat, .culture-screen .culture-container .cultures-photo .gold-container .hard-wheat, .culture-screen .culture-container .cultures-photo .gold-container .brown, .culture-screen .culture-container .cultures-photo .gold-container .gold, .culture-screen .culture-container .cultures-photo .gold-container .raps, .culture-screen .culture-container .cultures-photo .raps-container .soft-wheat, .culture-screen .culture-container .cultures-photo .raps-container .hard-wheat, .culture-screen .culture-container .cultures-photo .raps-container .brown, .culture-screen .culture-container .cultures-photo .raps-container .gold, .culture-screen .culture-container .cultures-photo .raps-container .raps {
+    width: clamp(80px, 37.3831775701vw, 320px) !important;
+    height: clamp(80px, 37.3831775701vw, 320px) !important;
+    margin-top: 64px !important;
+  }
+  .culture-screen .culture-container .cultures-photo .soft-wheat-container .soft-wheat-heading, .culture-screen .culture-container .cultures-photo .soft-wheat-container .hard-wheat-heading, .culture-screen .culture-container .cultures-photo .soft-wheat-container .brown-heading, .culture-screen .culture-container .cultures-photo .soft-wheat-container .gold-heading, .culture-screen .culture-container .cultures-photo .soft-wheat-container .raps-heading, .culture-screen .culture-container .cultures-photo .hard-wheat-container .soft-wheat-heading, .culture-screen .culture-container .cultures-photo .hard-wheat-container .hard-wheat-heading, .culture-screen .culture-container .cultures-photo .hard-wheat-container .brown-heading, .culture-screen .culture-container .cultures-photo .hard-wheat-container .gold-heading, .culture-screen .culture-container .cultures-photo .hard-wheat-container .raps-heading, .culture-screen .culture-container .cultures-photo .brown-container .soft-wheat-heading, .culture-screen .culture-container .cultures-photo .brown-container .hard-wheat-heading, .culture-screen .culture-container .cultures-photo .brown-container .brown-heading, .culture-screen .culture-container .cultures-photo .brown-container .gold-heading, .culture-screen .culture-container .cultures-photo .brown-container .raps-heading, .culture-screen .culture-container .cultures-photo .gold-container .soft-wheat-heading, .culture-screen .culture-container .cultures-photo .gold-container .hard-wheat-heading, .culture-screen .culture-container .cultures-photo .gold-container .brown-heading, .culture-screen .culture-container .cultures-photo .gold-container .gold-heading, .culture-screen .culture-container .cultures-photo .gold-container .raps-heading, .culture-screen .culture-container .cultures-photo .raps-container .soft-wheat-heading, .culture-screen .culture-container .cultures-photo .raps-container .hard-wheat-heading, .culture-screen .culture-container .cultures-photo .raps-container .brown-heading, .culture-screen .culture-container .cultures-photo .raps-container .gold-heading, .culture-screen .culture-container .cultures-photo .raps-container .raps-heading {
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 600;
+    font-size: clamp(10px, 4.6728971963vw, 40px) !important;
+    text-align: center;
+    margin-top: 16px !important;
+    color: #1e1e1e;
+  }
+  .culture-screen .culture-container .contact-with-us {
+    width: clamp(150px, 70.0934579439vw, 600px) !important;
+    height: clamp(24.5px, 11.4485981308vw, 98px) !important;
+    font-size: clamp(9.5px, 4.4392523364vw, 38px) !important;
+  }
+  .culture-screen .culture-container .arrow {
+    width: clamp(6.5px, 3.0373831776vw, 26px) !important;
+    height: clamp(100px, 46.7289719626vw, 400px) !important;
+    margin-top: clamp(16px, 7.476635514vw, 64px) !important;
+  }
 }/*# sourceMappingURL=cultures.css.map */

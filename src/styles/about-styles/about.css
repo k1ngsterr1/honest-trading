@@ -42,6 +42,9 @@
   display: flex;
   align-items: center;
 }
+* body .about-screen .about-container .number-list .first .s-01-mob, * body .about-screen .about-container .number-list .first .s-02-mob, * body .about-screen .about-container .number-list .first .s-03-mob, * body .about-screen .about-container .number-list .second .s-01-mob, * body .about-screen .about-container .number-list .second .s-02-mob, * body .about-screen .about-container .number-list .second .s-03-mob, * body .about-screen .about-container .number-list .third .s-01-mob, * body .about-screen .about-container .number-list .third .s-02-mob, * body .about-screen .about-container .number-list .third .s-03-mob {
+  display: none;
+}
 * body .about-screen .about-container .number-list .first .s-01, * body .about-screen .about-container .number-list .first .s-02, * body .about-screen .about-container .number-list .first .s-03, * body .about-screen .about-container .number-list .second .s-01, * body .about-screen .about-container .number-list .second .s-02, * body .about-screen .about-container .number-list .second .s-03, * body .about-screen .about-container .number-list .third .s-01, * body .about-screen .about-container .number-list .third .s-02, * body .about-screen .about-container .number-list .third .s-03 {
   font-family: "Montserrat";
   font-style: normal;
@@ -85,10 +88,60 @@
     width: 86.4583333333%;
     height: auto;
     display: flex;
-    align-items: flex-end;
-    justify-content: center;
+    align-items: center !important;
+    justify-content: center !important;
     flex-direction: column;
     margin: auto;
+  }
+  .about-screen .about-container .about-heading {
+    margin-top: clamp(32px, 14.953271028vw, 128px) !important;
+    font-size: clamp(16px, 7.476635514vw, 64px) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .about-screen .about-container .number-list {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin-top: clamp(32px, 14.953271028vw, 128px) !important;
+  }
+  .about-screen .about-container .first, .about-screen .about-container .second, .about-screen .about-container .third {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .about-screen .about-container .first .s-01-mob, .about-screen .about-container .first .s-02-mob, .about-screen .about-container .first .s-03-mob, .about-screen .about-container .second .s-01-mob, .about-screen .about-container .second .s-02-mob, .about-screen .about-container .second .s-03-mob, .about-screen .about-container .third .s-01-mob, .about-screen .about-container .third .s-02-mob, .about-screen .about-container .third .s-03-mob {
+    font-family: "Montserrat";
+    font-style: normal;
+    display: flex !important;
+    font-weight: 900;
+    font-size: clamp(17.5px, 8.1775700935vw, 70px) !important;
+    color: #305A02;
+  }
+  .about-screen .about-container .first .description-01, .about-screen .about-container .first .description-02, .about-screen .about-container .first .description-03, .about-screen .about-container .second .description-01, .about-screen .about-container .second .description-02, .about-screen .about-container .second .description-03, .about-screen .about-container .third .description-01, .about-screen .about-container .third .description-02, .about-screen .about-container .third .description-03 {
+    font-size: clamp(9px, 4.2056074766vw, 36px) !important;
+    text-align: center !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    margin-top: clamp(8px, 3.738317757vw, 32px) !important;
+  }
+  .about-screen .about-container .first .s-01, .about-screen .about-container .first .s-02, .about-screen .about-container .first .s-03, .about-screen .about-container .second .s-01, .about-screen .about-container .second .s-02, .about-screen .about-container .second .s-03, .about-screen .about-container .third .s-01, .about-screen .about-container .third .s-02, .about-screen .about-container .third .s-03 {
+    display: none !important;
+  }
+  .about-screen .about-container .down-separator {
+    display: flex !important;
+    margin-top: clamp(24px, 11.214953271vw, 96px) !important;
+  }
+  .about-screen .about-container .down-separator .separator {
+    width: 3px !important;
+    height: clamp(95px, 44.3925233645vw, 380px) !important;
+  }
+  .about-screen .about-container .down-separator .down-text {
+    font-size: clamp(10px, 4.6728971963vw, 40px) !important;
+    margin-top: clamp(16px, 7.476635514vw, 64px) !important;
   }
   .about-screen .wheat-about {
     display: none !important;
