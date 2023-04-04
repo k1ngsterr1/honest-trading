@@ -86,6 +86,9 @@ $sourceSansPro: 'Source Sans Pro'
                         .contact-with-us
                             margin-left: $sixtyfourclamp
 
+                    .for-burger-menu
+                        display: none
+
                 .main-content
                     width: auto
                     height: auto
@@ -134,12 +137,12 @@ $sourceSansPro: 'Source Sans Pro'
                             margin-right: clamp(6px,0.625vw,24px)
 
             .blob
-                width: 1330px
-                height: 1430.94px
+                width: clamp(665px,69.27083333333333vw,2660px)
+                height: clamp(715.47px,74.528125vw,2861.88px)
                 position: absolute
                 z-index: -5
-                left: 800.03px
-                top: -132px
+                left: clamp(400.015px,41.66822916666667vw,1600.06px)
+                top: clamp(-66px,-6.875vw,-264px)
 
             .main-screen-image
                 position: absolute
@@ -147,3 +150,92 @@ $sourceSansPro: 'Source Sans Pro'
                 height: clamp(489.5px,50.989583333333336vw,1958px)
                 left: clamp(489px,50.9375vw,1956px)
                 top: clamp(103.5px,10.78125vw,414px)
+
+@media screen  and (max-width: 448px)
+
+    .main-screen
+        width: 100%
+        font-family: 'Montserrat'
+        font-style: normal
+        height: auto
+        display: flex !important
+        margin: auto !important
+        z-index: 10
+        flex-direction: column
+
+        .main-container
+            width: 86% !important
+            height: auto
+            display: flex
+            flex-direction: column
+            align-items: center !important
+            justify-content: center !important
+            margin: auto !important
+
+            .navigation
+                width: 100%
+                display: flex
+                margin-top: clamp(16px,7.4766355140186915vw,64px) !important
+
+                .for-burger-menu
+                    display: flex !important
+
+                    .burger-menu
+                        font-size: clamp(12.5px,5.841121495327103vw,50px)
+                        color: $green
+
+                    .cross
+                        font-size: clamp(12.5px,5.841121495327103vw,50px)
+                        color: $green
+
+                .navigation-links
+                    display: none !important
+                    align-items: center !important
+                    justify-content: center !important
+                    margin-left: 0px !important
+                    margin-top: clamp(16px,7.4766355140186915vw,64px)
+
+                    .main
+                        font-size: clamp(10px,4.672897196261682vw,40px) !important
+                        margin-right: 0px !important
+
+                    .contact-with-us
+                        font-size: clamp(10px,4.672897196261682vw,40px) !important
+                        margin-left: 0px !important
+
+                    .about-us
+                        font-size: clamp(10px,4.672897196261682vw,40px) !important
+
+            .main-content
+                display: flex !important
+                align-items: center !important
+                text-align: center !important
+
+                .main-heading
+                    width: clamp(200px,93.45794392523365vw,800px) !important
+                    font-size: clamp(11.75px,5.490654205607477vw,47px) !important
+
+                .main-paragraph
+                    font-size: clamp(11px,5.140186915887851vw,44px) !important
+                    margin-top: clamp(16px,7.4766355140186915vw,64px) !important
+
+                .consultation-button
+                    width: clamp(186.5px,87.14953271028037vw,746px) !important
+                    height: clamp(28.5px,13.317757009345794vw,114px)!important
+                    font-size: clamp(10px,4.672897196261682vw,40px) !important
+                    margin-top: clamp(32px,14.953271028037383vw,128px) !important
+
+                .down-separator
+                    display: flex
+                    margin-top: clamp(24px,11.214953271028037vw,96px) !important
+
+                    .separator
+                        width: 3px !important
+                        height: clamp(95px,44.39252336448598vw,380px) !important
+
+                    .down-text
+                        font-size: clamp(10px,4.672897196261682vw,40px) !important
+                        margin-top: clamp(16px,7.4766355140186915vw,64px) !important
+
+        .blob, .main-screen-image
+            display: none !important

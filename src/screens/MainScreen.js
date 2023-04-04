@@ -1,6 +1,7 @@
 import React from "react";
 
 import { Link } from "react-scroll";
+import { useState } from "react";
 
 // Icons
 import { BsFillTelephoneFill } from "react-icons/bs";
@@ -12,12 +13,32 @@ import styles from "../styles/main-styles/main.css";
 import logo from "../assets/honest_trading.png";
 import blob from "../assets/main_blob.svg";
 import DownSeparator from "../components/DownSeparator";
-import wheat from "../assets/wheat-main.svg";
+import wheat from "../assets/wheat-main.png";
 
 // Animation
 import Slide from "react-reveal/Slide";
 
+import { AiOutlineClose } from "react-icons/ai";
+import NavLinks from "../components/NavLinks";
+import { GiHamburgerMenu } from "react-icons/gi";
+
 const MainScreen = () => {
+  const [open, setOpen] = useState(false);
+
+  const hamburgerMenu = (
+    <GiHamburgerMenu
+      className="burger-menu"
+      onClick={() => setOpen(!open)}
+    ></GiHamburgerMenu>
+  );
+
+  const closeMenu = (
+    <AiOutlineClose
+      className="cross"
+      onClick={() => setOpen(!open)}
+    ></AiOutlineClose>
+  );
+
   return (
     <div className="main-screen" id="main">
       <main className="main-container">
@@ -34,6 +55,10 @@ const MainScreen = () => {
             <Link className="contact-with-us" to="contact" smooth={true}>
               Связаться с нами
             </Link>
+          </div>
+          <div className="for-burger-menu">
+            {open ? closeMenu : hamburgerMenu}
+            {open && <NavLinks />}
           </div>
         </nav>
         <Slide left>

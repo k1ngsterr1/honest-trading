@@ -65,4 +65,32 @@
   height: clamp(548.5px, 57.1354166667vw, 2194px);
   left: 0px;
   top: clamp(857.5px, 89.3229166667vw, 3430px);
+}
+
+@media screen and (max-width: 448px) {
+  .about-screen {
+    width: 100%;
+    height: auto;
+    font-family: "Montserrat";
+    font-style: normal;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    z-index: 10;
+    flex-direction: column;
+    margin-top: clamp(64px, 6.6666666667vw, 256px);
+  }
+  .about-screen .about-container {
+    width: 86.4583333333%;
+    height: auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+  }
+  .about-screen .wheat-about {
+    display: none !important;
+  }
 }/*# sourceMappingURL=about.css.map */

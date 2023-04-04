@@ -4,11 +4,11 @@ import React from "react";
 import { Link } from "react-scroll";
 
 // images
-import softWheat from "../assets/wheat_soft.svg";
-import hardWheat from "../assets/wheat_hard.svg";
-import raps from "../assets/raps.svg";
-import brown from "../assets/brown.svg";
-import gold from "../assets/gold.svg";
+import softWheat from "../assets/wheat-soft.png";
+import hardWheat from "../assets/wheat-hard.png";
+import raps from "../assets/raps.png";
+import brown from "../assets/brown.png";
+import gold from "../assets/gold.png";
 import arrow from "../assets/arrow.svg";
 
 // styles
@@ -26,35 +26,45 @@ const CulturesScreen = () => {
         </h3>
         <Bounce bottom>
           <p className="culture-paragraph">
-            Lorem ipsum dolor sit amet consectetur. Faucibus id massa volutpat
-            turpis. Sagittis et mattis vitae diam consectetur sollicitudin.
+            Наша компания "Honest Trading" предлагает широкий выбор
+            высококачественных зерновых культур. Мы тщательно отбираем каждую
+            партию зерна, чтобы гарантировать его качество и соответствие всем
+            стандартам
           </p>
           <div className="cultures-photo">
             <div className="soft-wheat-container">
-              <img className="soft-wheat" src={softWheat}></img>
+              <img
+                className="soft-wheat"
+                src={softWheat}
+                alt="soft-wheat"
+              ></img>
               <h6 className="soft-wheat-heading">Пшеница мягкая</h6>
             </div>
             <div className="hard-wheat-container">
-              <img className="hard-wheat" src={hardWheat}></img>
+              <img
+                className="hard-wheat"
+                src={hardWheat}
+                alt="hard-wheat"
+              ></img>
               <h6 className="hard-wheat-heading">Пшеница твердая (дурум)</h6>
             </div>
             <div className="brown-container">
-              <img className="brown" src={brown}></img>
+              <img className="brown" src={brown} alt="brown"></img>
               <h6 className="brown-heading">Семена льна коричневого</h6>
             </div>
             <div className="gold-container">
-              <img className="gold" src={gold}></img>
+              <img className="gold" src={gold} alt="gold"></img>
               <h6 className="gold-heading">Семена льна золотистого</h6>
             </div>
             <div className="raps-container">
-              <img className="raps" src={raps}></img>
+              <img className="raps" src={raps} alt="raps"></img>
               <h6 className="raps-heading">Рапс</h6>
             </div>
           </div>
           <Link to="form" smooth={true} className="contact-with-us">
             Связаться с нами
           </Link>
-          <img className="arrow" src={arrow}></img>
+          <img className="arrow" src={arrow} alt="arrow"></img>
         </Bounce>
       </div>
     </div>

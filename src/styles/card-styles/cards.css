@@ -9,7 +9,7 @@
   margin-top: clamp(64px, 6.6666666667vw, 256px);
 }
 * body .cards-container .card-content {
-  width: clamp(154.5px, 16.09375vw, 618px) !important;
+  width: clamp(154.5px, 16.09375vw, 618px);
   height: clamp(252.5px, 26.3020833333vw, 1010px);
   display: flex;
   flex-direction: column;
@@ -36,8 +36,52 @@
   font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: 400;
-  font-size: clamp(10px, 1.0416666667vw, 40px) !important;
+  font-size: clamp(10px, 1.0416666667vw, 40px);
   color: #1e1e1e;
   margin-top: clamp(16px, 1.6666666667vw, 64px);
   margin-bottom: clamp(38px, 3.9583333333vw, 152px);
+}
+
+@media screen and (max-width: 448px) {
+  .cards-container {
+    width: 86.4583333333% !important;
+    display: flex;
+    flex-direction: column !important;
+    margin-top: clamp(64px, 29.9065420561vw, 256px) !important;
+  }
+  .cards-container .card-content {
+    width: clamp(150px, 70.0934579439vw, 600px) !important;
+    height: clamp(200px, 93.4579439252vw, 800px) !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #F8F8F8;
+    border-radius: 15px;
+    margin-top: 64px !important;
+    filter: drop-shadow(0px 27px 28px rgba(0, 0, 0, 0.2));
+  }
+  .cards-container .card-content .card-image {
+    width: clamp(50px, 23.3644859813vw, 200px) !important;
+    height: clamp(50px, 23.3644859813vw, 200px) !important;
+    margin-top: clamp(16px, 1.6666666667vw, 64px);
+  }
+  .cards-container .card-content .card-header {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: clamp(10.5px, 4.9065420561vw, 42px) !important;
+    margin-top: clamp(16px, 1.6666666667vw, 64px);
+    color: #1e1e1e;
+  }
+  .cards-container .card-content .card-paragraph {
+    width: clamp(125px, 58.4112149533vw, 500px) !important;
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px !important;
+    color: #1e1e1e;
+    text-align: center !important;
+    margin-top: clamp(16px, 1.6666666667vw, 64px);
+    margin-bottom: clamp(38px, 3.9583333333vw, 152px);
+  }
 }/*# sourceMappingURL=cards.css.map */

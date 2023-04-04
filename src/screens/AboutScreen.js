@@ -7,7 +7,7 @@ import styles from "../styles/about-styles/about.css";
 import DownSeparator from "../components/DownSeparator";
 
 // image
-import wheatPhoto from "../assets/wheat-about.svg";
+import wheatPhoto from "../assets/wheat-about-google.png";
 
 // Animation
 import Slide from "react-reveal/Slide";
@@ -47,7 +47,7 @@ const AboutScreen = () => {
           <DownSeparator></DownSeparator>
         </Slide>
       </div>
-      <img className="wheat-about" src={wheatPhoto}></img>
+      <img className="wheat-about" src={wheatPhoto} alt="wheat"></img>
     </div>
   );
 };

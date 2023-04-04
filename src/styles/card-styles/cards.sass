@@ -50,7 +50,7 @@ $sourceSansPro: 'Source Sans Pro'
             margin-top: $onetwoeightclamp
 
             .card-content
-                width: clamp(154.5px,16.09375vw,618px) !important
+                width: clamp(154.5px,16.09375vw,618px)
                 height: clamp(252.5px,26.302083333333332vw,1010px)
                 display: flex
                 flex-direction: column
@@ -77,7 +77,50 @@ $sourceSansPro: 'Source Sans Pro'
                     font-family: 'Source Sans Pro'
                     font-style: normal
                     font-weight: 400
-                    font-size: clamp(10px,1.0416666666666667vw,40px) !important
+                    font-size: clamp(10px,1.0416666666666667vw,40px)
                     color: $black
                     margin-top: $thirtytwoclamp
                     margin-bottom: clamp(38px,3.9583333333333335vw,152px)
+
+@media screen  and (max-width: 448px)
+
+    .cards-container
+        width: 86.45833333333333% !important
+        display: flex
+        flex-direction: column !important
+        margin-top: clamp(64px ,29.906542056074766vw, 256px)!important
+
+        .card-content
+            width: clamp(150px,70.09345794392523vw,600px) !important
+            height: clamp(200px,93.45794392523365vw,800px) !important
+            display: flex
+            flex-direction: column
+            align-items: center
+            background: #F8F8F8
+            border-radius: 15px
+            margin-top: 64px !important
+            filter: drop-shadow(0px 27px 28px rgba(0, 0, 0, 0.2))
+
+            .card-image
+                width: clamp(50px,23.364485981308412vw,200px) !important
+                height: clamp(50px,23.364485981308412vw,200px) !important
+                margin-top: $thirtytwoclamp
+
+            .card-header
+                font-family: 'Montserrat'
+                font-style: normal
+                font-weight: 700
+                font-size: clamp(10.5px,4.906542056074766vw,42px) !important
+                margin-top: $thirtytwoclamp
+                color: $black
+
+            .card-paragraph
+                width: clamp(125px,58.41121495327103vw,500px) !important
+                font-family: 'Source Sans Pro'
+                font-style: normal
+                font-weight: 400
+                font-size: 19px !important
+                color: $black
+                text-align: center !important
+                margin-top: $thirtytwoclamp
+                margin-bottom: clamp(38px,3.9583333333333335vw,152px)
