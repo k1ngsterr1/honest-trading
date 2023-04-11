@@ -7,7 +7,7 @@ import styles from "../styles/about-styles/about.css";
 import DownSeparator from "../components/DownSeparator";
 
 // image
-import wheatPhoto from "../assets/wheat-about-google.png";
+import wheatPhoto from "../assets/wheat-about-google.svg";
 
 // Animation
 import Slide from "react-reveal/Slide";

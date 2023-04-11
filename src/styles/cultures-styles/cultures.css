@@ -49,6 +49,7 @@
   font-size: clamp(30px, 3.125vw, 120px);
   text-transform: uppercase;
   color: #305A02;
+  margin: auto;
 }
 * body .culture-screen .culture-container .culture-heading .yellow-cultures {
   color: #D6BF1C;

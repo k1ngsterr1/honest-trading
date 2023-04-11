@@ -12,11 +12,12 @@ const ContactScreen = () => {
   const form = useRef();
 
   const [fullName, setFullName] = useState("");
+  const [sendText, setSentText] = useState("Отправить");
   const [phoneNumber, setPhoneNumber] = useState("");
   const [mail, setMail] = useState("");
 
   function handleClick() {
-    // setSent("send");
+    setSentText("Отправить");
   }
 
   function sendEmail(e) {
@@ -25,6 +26,7 @@ const ContactScreen = () => {
     setFullName("");
     setPhoneNumber("");
     setMail("");
+    setSentText("Заявка отправлена");
 
     emailjs
       .sendForm(
@@ -94,8 +96,8 @@ const ContactScreen = () => {
             Мы свяжемся с Вами в ближайшее время. Ваши данные не будут переданы
             третьим лицам.
           </p>
-          <button className="form-button" value="Send">
-            Отправить
+          <button onClick={handleClick} className="form-button" value="Send">
+            {sendText}
           </button>
         </form>
       </div>
