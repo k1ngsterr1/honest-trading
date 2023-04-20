@@ -98,6 +98,7 @@
     font-size: clamp(16px, 7.476635514vw, 64px) !important;
     display: flex !important;
     align-items: center !important;
+    display: none !important;
     justify-content: center !important;
   }
   .about-screen .about-container .number-list {
@@ -114,19 +115,29 @@
     justify-content: center !important;
   }
   .about-screen .about-container .first .s-01-mob, .about-screen .about-container .first .s-02-mob, .about-screen .about-container .first .s-03-mob, .about-screen .about-container .second .s-01-mob, .about-screen .about-container .second .s-02-mob, .about-screen .about-container .second .s-03-mob, .about-screen .about-container .third .s-01-mob, .about-screen .about-container .third .s-02-mob, .about-screen .about-container .third .s-03-mob {
+    width: clamp(44px, 22.5641025641vw, 166px);
+    height: clamp(44px, 22.5641025641vw, 166px);
+    background-color: #D6BF1C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
     font-family: "Montserrat";
     font-style: normal;
     display: flex !important;
     font-weight: 900;
-    font-size: clamp(17.5px, 8.1775700935vw, 70px) !important;
-    color: #305A02;
+    font-size: clamp(20px, 10.2564102564vw, 80px) !important;
+    color: white;
   }
   .about-screen .about-container .first .description-01, .about-screen .about-container .first .description-02, .about-screen .about-container .first .description-03, .about-screen .about-container .second .description-01, .about-screen .about-container .second .description-02, .about-screen .about-container .second .description-03, .about-screen .about-container .third .description-01, .about-screen .about-container .third .description-02, .about-screen .about-container .third .description-03 {
-    font-size: clamp(9px, 4.2056074766vw, 36px) !important;
+    font-size: clamp(9px, 4.6153846154vw, 36px) !important;
     text-align: center !important;
     margin-right: 0 !important;
     margin-left: 0 !important;
     margin-top: clamp(8px, 3.738317757vw, 32px) !important;
+  }
+  .about-screen .about-container .first .s-02-mob, .about-screen .about-container .first .s-03-mob, .about-screen .about-container .second .s-02-mob, .about-screen .about-container .second .s-03-mob, .about-screen .about-container .third .s-02-mob, .about-screen .about-container .third .s-03-mob {
+    margin-top: clamp(32px, 16.4102564103vw, 128px) !important;
   }
   .about-screen .about-container .first .s-01, .about-screen .about-container .first .s-02, .about-screen .about-container .first .s-03, .about-screen .about-container .second .s-01, .about-screen .about-container .second .s-02, .about-screen .about-container .second .s-03, .about-screen .about-container .third .s-01, .about-screen .about-container .third .s-02, .about-screen .about-container .third .s-03 {
     display: none !important;

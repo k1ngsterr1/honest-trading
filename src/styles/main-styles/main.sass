@@ -70,6 +70,9 @@ $sourceSansPro: 'Source Sans Pro'
                     font-size: $navigation
                     margin-top: $thirtytwoclamp
 
+                    .mobile-burger
+                        display: none
+
                     .honest-trading-logo
                         cursor: pointer
                         width: clamp(133px,13.854166666666666vw,532px)
@@ -151,6 +154,9 @@ $sourceSansPro: 'Source Sans Pro'
                 left: clamp(489px,50.9375vw,1956px)
                 top: clamp(103.5px,10.78125vw,414px)
 
+            .wheat-mobile
+                display: none
+
 @media screen  and (max-width: 448px)
 
     .main-screen
@@ -177,7 +183,7 @@ $sourceSansPro: 'Source Sans Pro'
                 display: flex
                 margin-top: clamp(16px,7.4766355140186915vw,64px) !important
 
-                .for-burger-menu
+                .mobile-burger
                     display: flex !important
 
                     .burger-menu
@@ -205,6 +211,10 @@ $sourceSansPro: 'Source Sans Pro'
 
                     .about-us
                         font-size: clamp(10px,4.672897196261682vw,40px) !important
+
+                .mobile-nav-links
+                    border: 2px solid red
+                    display: flex !important
 
             .main-content
                 display: flex !important
@@ -239,3 +249,7 @@ $sourceSansPro: 'Source Sans Pro'
 
         .blob, .main-screen-image
             display: none !important
+
+        .wheat-mobile
+            margin-top: clamp(64px,30.917874396135264vw,256px)
+            display: flex !important

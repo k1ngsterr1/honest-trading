@@ -101,6 +101,7 @@
     font-style: normal;
     height: auto;
     display: flex;
+    align-items: center !important;
     margin: auto;
     z-index: 10;
     flex-direction: column;
@@ -112,10 +113,11 @@
     display: flex !important;
     flex-direction: column !important;
     align-items: center !important;
+    justify-content: center !important;
     margin: auto !important;
   }
   .culture-screen .culture-container .culture-heading {
-    width: clamp(200px, 93.4579439252vw, 800px) !important;
+    width: auto !important;
     margin-top: clamp(32px, 14.953271028vw, 128px) !important;
     font-size: clamp(16px, 7.476635514vw, 64px) !important;
     display: flex !important;
@@ -127,7 +129,7 @@
     font-family: "Source Sans Pro";
     font-style: normal;
     font-weight: 400;
-    font-size: clamp(9.5px, 4.4392523364vw, 38px) !important;
+    font-size: clamp(9.5px, 4.8717948718vw, 38px) !important;
     text-align: center;
     color: #1e1e1e;
     margin: auto;
@@ -159,9 +161,9 @@
     color: #1e1e1e;
   }
   .culture-screen .culture-container .contact-with-us {
-    width: clamp(150px, 70.0934579439vw, 600px) !important;
-    height: clamp(24.5px, 11.4485981308vw, 98px) !important;
-    font-size: clamp(9.5px, 4.4392523364vw, 38px) !important;
+    width: clamp(165px, 84.6153846154vw, 660px) !important;
+    height: clamp(25px, 12.8205128205vw, 100px) !important;
+    font-size: clamp(10px, 5.1282051282vw, 40px) !important;
   }
   .culture-screen .culture-container .arrow {
     width: clamp(6.5px, 3.0373831776vw, 26px) !important;

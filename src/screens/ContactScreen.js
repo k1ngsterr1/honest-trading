@@ -8,6 +8,9 @@ import emailjs from "@emailjs/browser";
 import { useRef } from "react";
 import { useState } from "react";
 
+// Popup
+import Popup from "reactjs-popup";
+
 const ContactScreen = () => {
   const form = useRef();
 
@@ -16,9 +19,8 @@ const ContactScreen = () => {
   const [phoneNumber, setPhoneNumber] = useState("");
   const [mail, setMail] = useState("");
 
-  function handleClick() {
-    setSentText("Отправить");
-  }
+  const [open, setOpen] = useState(false);
+  const closeModal = () => setOpen(false);
 
   function sendEmail(e) {
     e.preventDefault();
@@ -26,7 +28,7 @@ const ContactScreen = () => {
     setFullName("");
     setPhoneNumber("");
     setMail("");
-    setSentText("Заявка отправлена");
+    setOpen((o) => !o);
 
     emailjs
       .sendForm(
@@ -96,11 +98,23 @@ const ContactScreen = () => {
             Мы свяжемся с Вами в ближайшее время. Ваши данные не будут переданы
             третьим лицам.
           </p>
-          <button onClick={handleClick} className="form-button" value="Send">
-            {sendText}
+          <button className="form-button" value="Send">
+            Отправить заявку
           </button>
         </form>
       </div>
+      <Popup open={open} closeOnDocumentClick onClose={closeModal} modal>
+        <div className="modal">
+          <a className="close" onClick={closeModal}>
+            &times;
+          </a>
+          <h2 className="popup-heading">Ваша заявка отправлена</h2>
+          <p className="popup-paragraph">
+            Наши менеджеры свяжутся с вами в скором времени
+          </p>
+        </div>
+        <div className="overlay"></div>
+      </Popup>
     </div>
   );
 };

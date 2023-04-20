@@ -12,7 +12,7 @@ import truck from "../assets/Truck.svg";
 const CardsScreen = () => {
   function Card(props) {
     return (
-      <div className="card-content">
+      <div className="card-content last">
         <img className="card-image" src={props.view}></img>
         <h6 className="card-header">{props.heading}</h6>
         <p className="card-paragraph">{props.description}</p>

@@ -31,6 +31,9 @@
   font-size: clamp(11.5px, 1.1979166667vw, 46px);
   margin-top: clamp(16px, 1.6666666667vw, 64px);
 }
+* body .main-screen .main-container .navigation .mobile-burger {
+  display: none;
+}
 * body .main-screen .main-container .navigation .honest-trading-logo {
   cursor: pointer;
   width: clamp(133px, 13.8541666667vw, 532px);
@@ -113,6 +116,9 @@
   left: clamp(489px, 50.9375vw, 1956px);
   top: clamp(103.5px, 10.78125vw, 414px);
 }
+* body .main-screen .wheat-mobile {
+  display: none;
+}
 
 @media screen and (max-width: 448px) {
   .main-screen {
@@ -139,14 +145,14 @@
     display: flex;
     margin-top: clamp(16px, 7.476635514vw, 64px) !important;
   }
-  .main-screen .main-container .navigation .for-burger-menu {
+  .main-screen .main-container .navigation .mobile-burger {
     display: flex !important;
   }
-  .main-screen .main-container .navigation .for-burger-menu .burger-menu {
+  .main-screen .main-container .navigation .mobile-burger .burger-menu {
     font-size: clamp(12.5px, 5.8411214953vw, 50px);
     color: #305A02;
   }
-  .main-screen .main-container .navigation .for-burger-menu .cross {
+  .main-screen .main-container .navigation .mobile-burger .cross {
     font-size: clamp(12.5px, 5.8411214953vw, 50px);
     color: #305A02;
   }
@@ -167,6 +173,10 @@
   }
   .main-screen .main-container .navigation .navigation-links .about-us {
     font-size: clamp(10px, 4.6728971963vw, 40px) !important;
+  }
+  .main-screen .main-container .navigation .mobile-nav-links {
+    border: 2px solid red;
+    display: flex !important;
   }
   .main-screen .main-container .main-content {
     display: flex !important;
@@ -201,5 +211,9 @@
   }
   .main-screen .blob, .main-screen .main-screen-image {
     display: none !important;
+  }
+  .main-screen .wheat-mobile {
+    margin-top: clamp(64px, 30.9178743961vw, 256px);
+    display: flex !important;
   }
 }/*# sourceMappingURL=main.css.map */

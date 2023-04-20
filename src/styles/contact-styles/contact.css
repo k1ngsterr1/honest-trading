@@ -1,5 +1,42 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+* body .modal {
+  width: clamp(416.5px, 43.3854166667vw, 1666px);
+  height: clamp(150px, 15.625vw, 600px);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  border: 4px solid #305A02;
+  box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.25) !important;
+  border-radius: 17px;
+  -webkit-animation: anvil 0.3s cubic-bezier(0.38, 0.1, 0.36, 0.9) forwards;
+}
+* body .modal .popup-heading {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: clamp(16px, 1.6666666667vw, 64px);
+  text-align: center;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #305A02;
+}
+* body .modal .popup-paragraph {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(15px, 1.5625vw, 60px);
+  color: #1e1e1e;
+  text-align: center;
+  margin-top: clamp(16px, 1.6666666667vw, 64px);
+}
+* body .modal .close {
+  display: none;
+}
+* body .popup-overlay {
+  background: rgba(0, 0, 0, 0.55);
+}
 * body .contact-screen {
   width: 100%;
   height: auto;
@@ -128,7 +165,7 @@
 }
 
 @media screen and (max-width: 448px) {
-  .contact-screen {
+  * body .contact-screen {
     width: 100% !important;
     height: auto !important;
     background-size: cover !important;
@@ -144,36 +181,65 @@
     flex-direction: rfcolumn;
     margin-top: clamp(64px, 6.6666666667vw, 256px);
   }
-  .contact-screen .contact-paragraph {
+  * body .contact-screen .contact-paragraph {
     font-size: clamp(9.5px, 4.4392523364vw, 38px) !important;
   }
-  .contact-screen .form {
+  * body .contact-screen .form {
     width: clamp(175px, 81.7757009346vw, 700px) !important;
     height: auto !important;
   }
-  .contact-screen .form .form-heading {
+  * body .contact-screen .form .form-heading {
     width: clamp(100px, 46.7289719626vw, 400px) !important;
     font-size: clamp(10.5px, 4.9065420561vw, 42px) !important;
   }
-  .contact-screen .form .name-container, .contact-screen .form .phone-container, .contact-screen .form .email-container {
+  * body .contact-screen .form .name-container, * body .contact-screen .form .phone-container, * body .contact-screen .form .email-container {
     margin-top: clamp(16px, 7.476635514vw, 64px) !important;
   }
-  .contact-screen .form .name-container .name-heading, .contact-screen .form .name-container .phone-heading, .contact-screen .form .name-container .email-heading, .contact-screen .form .phone-container .name-heading, .contact-screen .form .phone-container .phone-heading, .contact-screen .form .phone-container .email-heading, .contact-screen .form .email-container .name-heading, .contact-screen .form .email-container .phone-heading, .contact-screen .form .email-container .email-heading {
+  * body .contact-screen .form .name-container .name-heading, * body .contact-screen .form .name-container .phone-heading, * body .contact-screen .form .name-container .email-heading, * body .contact-screen .form .phone-container .name-heading, * body .contact-screen .form .phone-container .phone-heading, * body .contact-screen .form .phone-container .email-heading, * body .contact-screen .form .email-container .name-heading, * body .contact-screen .form .email-container .phone-heading, * body .contact-screen .form .email-container .email-heading {
     font-size: clamp(8.5px, 3.9719626168vw, 34px) !important;
   }
-  .contact-screen .form .name-container .name-input, .contact-screen .form .name-container .phone-input, .contact-screen .form .name-container .email-input, .contact-screen .form .phone-container .name-input, .contact-screen .form .phone-container .phone-input, .contact-screen .form .phone-container .email-input, .contact-screen .form .email-container .name-input, .contact-screen .form .email-container .phone-input, .contact-screen .form .email-container .email-input {
+  * body .contact-screen .form .name-container .name-input, * body .contact-screen .form .name-container .phone-input, * body .contact-screen .form .name-container .email-input, * body .contact-screen .form .phone-container .name-input, * body .contact-screen .form .phone-container .phone-input, * body .contact-screen .form .phone-container .email-input, * body .contact-screen .form .email-container .name-input, * body .contact-screen .form .email-container .phone-input, * body .contact-screen .form .email-container .email-input {
     width: clamp(145px, 67.7570093458vw, 580px) !important;
     height: clamp(23px, 10.7476635514vw, 92px) !important;
     font-size: clamp(6.5px, 3.0373831776vw, 26px) !important;
   }
-  .contact-screen .form .form-paragraph {
+  * body .contact-screen .form .form-paragraph {
     width: clamp(150px, 70.0934579439vw, 600px) !important;
     font-size: clamp(7.5px, 3.5046728972vw, 30px) !important;
     margin-top: clamp(12px, 5.6074766355vw, 48px) !important;
   }
-  .contact-screen .form .form-button {
+  * body .contact-screen .form .form-button {
     width: clamp(135px, 63.0841121495vw, 540px) !important;
     height: clamp(21.5px, 10.046728972vw, 86px) !important;
     font-size: clamp(7.5px, 3.5046728972vw, 30px) !important;
+  }
+  .modal {
+    width: clamp(150px, 70.0934579439vw, 600px) !important;
+    height: clamp(100px, 46.7289719626vw, 400px) !important;
+    display: flex !important;
+  }
+  .modal .popup-heading {
+    font-size: clamp(7.5px, 3.6231884058vw, 30px) !important;
+  }
+  .modal .popup-paragraph {
+    width: clamp(100px, 48.309178744vw, 400px) !important;
+    font-size: clamp(7.5px, 3.6231884058vw, 30px) !important;
+  }
+}
+@keyframes anvil {
+  0% {
+    transform: scale(1) translateY(0px);
+    opacity: 0;
+    box-shadow: 0 0 0 rgba(241, 241, 241, 0);
+  }
+  1% {
+    transform: scale(0.96) translateY(10px);
+    opacity: 0;
+    box-shadow: 0 0 0 rgba(241, 241, 241, 0);
+  }
+  100% {
+    transform: scale(1) translateY(0px);
+    opacity: 1;
+    box-shadow: 0 0 500px rgba(241, 241, 241, 0);
   }
 }/*# sourceMappingURL=contact.css.map */

@@ -7,6 +7,7 @@
   width: 100% !important;
   height: auto !important;
   background-color: #ffffff !important;
+  border: 2px solid;
   top: 70px;
   display: flex !important;
   z-index: 10 !important;
