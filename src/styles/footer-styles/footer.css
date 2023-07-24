@@ -20,10 +20,30 @@
   height: auto;
   display: flex;
   flex-direction: column;
+  align-items: start;
 }
 * body .footer .footer-container .logo-container .logo {
   width: clamp(133px, 13.8541666667vw, 532px);
   height: clamp(41px, 4.2708333333vw, 164px);
+}
+* body .footer .footer-container .logo-container .spark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+* body .footer .footer-container .logo-container .spark .triangle {
+  width: clamp(35px, 3.6456vw, 140px);
+  height: clamp(35px, 3.6456vw, 140px);
+  margin-top: clamp(8px, 0.8333333333vw, 32px);
+  margin-left: clamp(10px, 1.0416vw, 40px);
+  cursor: pointer;
+}
+* body .footer .footer-container .logo-container .spark .spark-text {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: clamp(9px, 0.9375vw, 36px);
 }
 * body .footer .footer-container .logo-container .footer-paragraph {
   width: clamp(147.5px, 15.3645833333vw, 590px);

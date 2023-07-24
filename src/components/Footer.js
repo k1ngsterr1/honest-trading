@@ -8,6 +8,7 @@ import { Link } from "react-scroll";
 
 // Logo
 import logo from "../assets/honest_trading.png";
+import triangle from "../assets/Triangle.svg";
 
 // Icons
 import { MdArrowDropUp } from "react-icons/md";
@@ -18,10 +19,15 @@ const Footer = () => {
       <div className="footer-container">
         <div className="logo-container">
           <img className="logo" src={logo}></img>
-          <p className="footer-paragraph">
-            Lorem ipsum dolor sit amet consectetur. Faucibus id massa volutpat
-            turpis. Sagittis et mattis vitae diam consectetur sollicitudin.
-          </p>
+          <div className="spark">
+            <img
+              className="triangle"
+              src={triangle}
+              onClick={() => window.open("https://sparkstudio.kz/", "_blank")}
+              alt="spark-studio"
+            ></img>
+            <span className="spark-text">Сделано в</span>
+          </div>
         </div>
         <nav className="footer-navigation">
           <Link to="main" smooth={true} className="main-footer-link">
@@ -38,7 +44,6 @@ const Footer = () => {
           Подняться вверх
         </Link>
       </div>
-
       <span className="footer-separator"></span>
       <p className="footer-text">Copyright Honest Trading</p>
     </footer>

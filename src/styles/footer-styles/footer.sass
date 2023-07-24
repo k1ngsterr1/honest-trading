@@ -61,10 +61,30 @@ $sourceSansPro: 'Source Sans Pro'
                     height: auto
                     display: flex
                     flex-direction: column
+                    align-items: start
 
                     .logo
                         width: clamp(133px,13.854166666666666vw,532px)
                         height: clamp(41px,4.270833333333333vw,164px)
+
+                    .spark
+                        display: flex
+                        align-items: center
+                        justify-content: center
+                        flex-direction: column
+
+                        .triangle
+                            width: clamp(35px,3.6456vw,140px)
+                            height: clamp(35px,3.6456vw,140px)
+                            margin-top: $sixteenclamp
+                            margin-left: clamp(10px,1.0416vw,40px)
+                            cursor: pointer
+
+                        .spark-text
+                            font-family: 'Source Sans Pro'
+                            font-style: normal
+                            font-weight: 600
+                            font-size: clamp(9px,0.9375vw,36px)
 
                     .footer-paragraph
                         width: clamp(147.5px,15.364583333333334vw,590px)
