@@ -51,8 +51,8 @@ const ContactScreen = () => {
           ПОЛУЧИТЕ КОНСУЛЬТАЦИЮ ОТ ЭКСПЕРТА!
         </h4>
         <p className="contact-paragraph">
-          Обращайтесь к нам сегодня, чтобы получить высококачественное зерно по
-          привлекательным ценам и качественный сервис, который вы заслуживаете!
+          Если вы заинтересованы в сотрудничестве с нашей компанией, пожалуйста,
+          свяжитесь по указанным контактным данным.
         </p>
         <form className="form" id="form" ref={form} onSubmit={sendEmail}>
           <h5 className="form-heading">Оставить заявку на консультацию</h5>
@@ -102,6 +102,13 @@ const ContactScreen = () => {
             Отправить заявку
           </button>
         </form>
+        <div className="contacts">
+          <div className="mobile-phone-c">
+            <a className="phone-link" href="">
+              +7-706-826-00-08{" "}
+            </a>
+          </div>
+        </div>
       </div>
       <Popup open={open} closeOnDocumentClick onClose={closeModal} modal>
         <div className="modal">

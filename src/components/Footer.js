@@ -19,15 +19,6 @@ const Footer = () => {
       <div className="footer-container">
         <div className="logo-container">
           <img className="logo" src={logo}></img>
-          <div className="spark">
-            <img
-              className="triangle"
-              src={triangle}
-              onClick={() => window.open("https://sparkstudio.kz/", "_blank")}
-              alt="spark-studio"
-            ></img>
-            <span className="spark-text">Сделано в</span>
-          </div>
         </div>
         <nav className="footer-navigation">
           <Link to="main" smooth={true} className="main-footer-link">
@@ -46,6 +37,17 @@ const Footer = () => {
       </div>
       <span className="footer-separator"></span>
       <p className="footer-text">Copyright Honest Trading</p>
+      <div className="spark">
+        <div className="spark-content">
+          <span className="spark-text">Разработано в</span>
+          <img
+            className="triangle"
+            src={triangle}
+            onClick={() => window.open("https://sparkstudio.kz/", "_blank")}
+            alt="spark-studio"
+          ></img>
+        </div>
+      </div>
     </footer>
   );
 };

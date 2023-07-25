@@ -27,10 +27,8 @@ const CulturesScreen = () => {
         </h3>
         <Bounce bottom>
           <p className="culture-paragraph">
-            Наша компания "Honest Trading" предлагает широкий выбор
-            высококачественных зерновых культур. Мы тщательно отбираем каждую
-            партию зерна, чтобы гарантировать его качество и соответствие всем
-            стандартам
+            Наша компания предлагает широкий ассортимент сельхозпродукции для
+            экспорта:
           </p>
           <div className="cultures-photo">
             <div className="soft-wheat-container">
@@ -45,21 +43,21 @@ const CulturesScreen = () => {
               <img
                 className="hard-wheat"
                 src={hardWheat}
-                alt="hard-wheat"
+                alt="checheviza"
               ></img>
-              <h6 className="hard-wheat-heading">Пшеница твердая (дурум)</h6>
+              <h6 className="hard-wheat-heading">Чечевица</h6>
             </div>
             <div className="brown-container">
               <img className="brown" src={brown} alt="brown"></img>
               <h6 className="brown-heading">Семена льна коричневого</h6>
             </div>
             <div className="gold-container">
-              <img className="gold" src={gold} alt="gold"></img>
-              <h6 className="gold-heading">Семена льна золотистого</h6>
+              <img className="gold" src={gold} alt="yachmen"></img>
+              <h6 className="gold-heading">Ячмень</h6>
             </div>
             <div className="raps-container">
               <img className="raps" src={raps} alt="raps"></img>
-              <h6 className="raps-heading">Рапс</h6>
+              <h6 className="raps-heading">Семена подсолнечника</h6>
             </div>
           </div>
           <Link to="form" smooth={true} className="contact-with-us">

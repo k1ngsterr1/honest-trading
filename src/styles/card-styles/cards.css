@@ -26,6 +26,7 @@
 * body .cards-container .card-content .card-header {
   font-family: "Montserrat";
   font-style: normal;
+  text-align: center;
   font-weight: 700;
   font-size: clamp(13.5px, 1.40625vw, 54px);
   margin-top: clamp(16px, 1.6666666667vw, 64px);
