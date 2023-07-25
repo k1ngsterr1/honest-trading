@@ -76,6 +76,10 @@
   font-size: clamp(12px, 1.24992vw, 48px);
   color: #ffffff;
   margin-left: clamp(8px, 0.8333333333vw, 32px);
+  transition: 0.3s;
+}
+* body .contact-screen .contact-container .contacts .mobile-phone-c .phone-link:hover {
+  color: #305A02;
 }
 * body .contact-screen .contact-container .contact-heading {
   font-family: "Montserrat";
