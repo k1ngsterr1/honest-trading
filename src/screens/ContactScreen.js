@@ -11,6 +11,9 @@ import { useState } from "react";
 // Popup
 import Popup from "reactjs-popup";
 
+// Assets
+import phoneIcon from "../assets/phone-icon.svg";
+
 const ContactScreen = () => {
   const form = useRef();
 
@@ -104,7 +107,7 @@ const ContactScreen = () => {
         </form>
         <div className="contacts">
           <div className="mobile-phone-c">
-            <a className="phone-link" href="">
+            <a className="phone-link" href="tel:+77068260008">
               +7-706-826-00-08{" "}
             </a>
           </div>
