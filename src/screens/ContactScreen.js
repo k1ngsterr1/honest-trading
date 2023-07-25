@@ -113,6 +113,21 @@ const ContactScreen = () => {
               +7-706-826-00-08{" "}
             </a>
           </div>
+          <div className="email-c">
+            <img className="email-icon" src={emailIcon} alt="phone-icon"></img>
+            <a className="email-link" href="mailto:ceo@honest.kz">
+              ceo@honest.kz{" "}
+            </a>
+          </div>
+          <p className="c-par">
+            Наша команда с удовольствием ответит на Ваши вопросы, предоставит
+            дополнительную информацию и поможет найти оптимальные решения для
+            Ваших потребностей в сельскохозяйственных продуктах.
+          </p>
+          <p className="c-par-2">
+            Мы гордимся нашей репутацией надежного поставщика зерна из
+            Казахстана и рассчитываем на долгосрочное партнерство с Вами.
+          </p>
         </div>
       </div>
       <Popup open={open} closeOnDocumentClick onClose={closeModal} modal>

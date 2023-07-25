@@ -40,6 +40,7 @@
 * body .contact-screen {
   width: 100%;
   height: auto;
+  background-position: center;
   background-size: cover;
   background-image: url(../../assets/Contact_Background.svg) !important;
   font-family: "Montserrat";
@@ -64,22 +65,37 @@
   flex-direction: column;
   margin: auto;
 }
-* body .contact-screen .contact-container .contacts .mobile-phone-c {
+* body .contact-screen .contact-container .contacts .mobile-phone-c, * body .contact-screen .contact-container .contacts .email-c {
   display: flex;
   align-items: center;
+  margin: auto;
 }
-* body .contact-screen .contact-container .contacts .mobile-phone-c .phone-icon {
+* body .contact-screen .contact-container .contacts .mobile-phone-c .phone-icon, * body .contact-screen .contact-container .contacts .mobile-phone-c .email-icon, * body .contact-screen .contact-container .contacts .email-c .phone-icon, * body .contact-screen .contact-container .contacts .email-c .email-icon {
   width: clamp(16px, 1.66656vw, 64px);
   height: clamp(16px, 1.66656vw, 64px);
 }
-* body .contact-screen .contact-container .contacts .mobile-phone-c .phone-link {
+* body .contact-screen .contact-container .contacts .mobile-phone-c .phone-link, * body .contact-screen .contact-container .contacts .mobile-phone-c .email-link, * body .contact-screen .contact-container .contacts .email-c .phone-link, * body .contact-screen .contact-container .contacts .email-c .email-link {
   font-size: clamp(12px, 1.24992vw, 48px);
   color: #ffffff;
   margin-left: clamp(8px, 0.8333333333vw, 32px);
   transition: 0.3s;
 }
-* body .contact-screen .contact-container .contacts .mobile-phone-c .phone-link:hover {
+* body .contact-screen .contact-container .contacts .mobile-phone-c .phone-link:hover, * body .contact-screen .contact-container .contacts .mobile-phone-c .email-link:hover, * body .contact-screen .contact-container .contacts .email-c .phone-link:hover, * body .contact-screen .contact-container .contacts .email-c .email-link:hover {
   color: #305A02;
+}
+* body .contact-screen .contact-container .contacts .email-c {
+  margin-top: clamp(16px, 1.6666666667vw, 64px);
+  margin-bottom: clamp(16px, 1.6666666667vw, 64px);
+}
+* body .contact-screen .contact-container .contacts .c-par, * body .contact-screen .contact-container .contacts .c-par-2 {
+  width: 50%;
+  font-size: clamp(9.5px, 0.98952vw, 38px);
+  margin: auto;
+  color: #ffffff;
+  font-weight: 600;
+  margin-bottom: clamp(32px, 3.3333333333vw, 128px);
+  text-align: center;
+  margin-top: clamp(16px, 1.6666666667vw, 64px);
 }
 * body .contact-screen .contact-container .contact-heading {
   font-family: "Montserrat";
